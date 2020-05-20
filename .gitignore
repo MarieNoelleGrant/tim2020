@@ -1,0 +1,21 @@
+#Le # au début d'une ligne défini un commentaire
+
+#Fichiers cachés créés par Mac OS
+.DS_Store
+Icon?
+
+#Dossier caché créé par PHPStorm
+./tim2020/.idea/
+
+#Dossier des dépendances
+tim2020/wp-content/themes/site_tim2020/node_modules/
+liaisons/node_modules/
+# vendor/
+
+#Dossier caché de fichiers temporaires créé par sass
+.sass-cache/
+
+#Autres fichiers
+package-lock.json
+./ressources/cache/
+gulpfile.js
