@@ -1,0 +1,61 @@
+[05-Mar-2020 20:28:03 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user '17_mngrant'@'localhost' (using password: YES) in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-includes/wp-db.php on line 1633
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 42
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 43
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 46
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 49
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 42
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 43
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 46
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 49
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 42
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 43
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 46
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 49
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 42
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 43
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 46
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 49
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 42
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 43
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 46
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 49
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 86
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 88
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 89
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 90
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 90
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 93
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 128
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 128
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 141
+[05-Mar-2020 20:29:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 141
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 42
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 43
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 46
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 49
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 42
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 43
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 46
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 49
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 42
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 43
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 46
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 49
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 42
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 43
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 46
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 49
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 42
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 43
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 46
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 49
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 86
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 88
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 89
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 90
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 90
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 93
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 128
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 128
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 141
+[05-Mar-2020 20:33:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/etu02/Sites/projet_siteTIM/tim2020/wp-content/themes/site_tim2020/page-programme.php on line 141

@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "amd",
+    "target": "es5",
+    "outDir": "../../tim2020/wp-content/themes/site_tim2020/js",
+    "sourceMap": true
+    //"resolveJsonModule": true,
+    //"esModuleInterop": true
+  },
+  "exclude": [
+    "../../tim2020/wp-content/themes/site_tim2020/node_modules"
+  ]
+}

@@ -1,0 +1,127 @@
+/**
+ * @author Marie-Noëlle Grant <m.noelle.grant@gmail.com>
+*/
+
+/**
+ * ------------------
+ * TABLE DES MATIÈRES
+ * ------------------
+ * Régles générales
+ *
+ * Régles spécifiques aux type d'inputs
+ *
+ * Régles pour les messages d'erreur/icones
+ *
+ * Régles spécifiques pour la confirmation d'envoi/non-envoi du courriel
+ * (Pour les pages contact et stages)
+ */
+
+/*** Régles générales ***/
+.form {
+  @include borderNoir;
+  padding: 18px;
+
+  @media (min-width:$mobile) {
+    margin-top: 20px;
+  }
+
+  // *******************************************************************************************
+  // Régles spécifiques aux type d'inputs
+  // *******************************************************************************************
+  &__text {
+    &--xl {
+      height: 115px;
+      padding: 6px 10px;
+    }
+    @media(min-width:$tablette) {
+      &--s {
+        width: 220px;
+      }
+      &--m {
+        width: 300px;
+      }
+      &--l, &--xl {
+        width: 385px;
+      }
+    }
+
+  }
+
+  label {
+    @include fontSize(18px);
+  }
+
+  input:not([type="checkbox"]) {
+    padding: 4px 10px;
+  }
+
+  select {
+    width: 200px;
+    height: 36px;
+    font-weight: 300;
+  }
+
+  textarea {
+    border: solid 1px $presqueNoir;
+  }
+}
+
+.conteneur__form {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-bottom: 16px;
+  position: relative;
+  width: calc(100% - 40px);
+  @media(min-width: $tablette) {
+    width: fit-content;
+  }
+  &--pasFlex {
+    display: inline-block;
+  }
+  &.conteneur__select {
+    width: fit-content;
+  }
+  .icone__crochet {
+    right: -32px;
+  }
+}
+
+// *******************************************************************************************
+// Régles pour les messages d'erreur/icones
+// *******************************************************************************************
+.msgErreur {
+  margin-bottom: 0;
+  color: $rougeErreur;
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+}
+
+.erreur {
+  border: 1px solid $rougeErreur;
+}
+
+.icone__crochet {
+  position: absolute;
+  top: 28px;
+  right: -40px;
+}
+
+// *******************************************************************************************
+// Régles spécifiques pour la confirmation d'envoi/non-envoi du courriel
+// (Pour les pages contact et stages)
+// *******************************************************************************************
+.msgEnvoiCourriel {
+  .icone {
+    position: initial;
+  }
+  display: flex;
+  padding: 10px;
+  font-weight: 500;
+  color: $rougeErreur;
+  border: 3px solid $rougeErreur;
+  &--ok {
+    color: $noir;
+    border-color: $vertMenthe--80;
+  }
+}

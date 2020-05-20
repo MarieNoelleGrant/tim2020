@@ -1,0 +1,588 @@
+/**
+ * @author Marie-Noëlle Grant <m.noelle.grant@gmail.com>
+*/
+
+/**
+ * ------------------
+ * TABLE DES MATIÈRES
+ * ------------------
+ * Régles générales
+ *
+ * Section de l'entête avec vidéo
+ * ***********************************************
+ * Régles pour le bouton play/pause du vidéo
+ * Vidéo (seulement visible en écran plus large que 600px (+ que mobile)
+ * Image en arrière-plan (seulement visible en écran plus petit que 600px (mobile)
+ *
+ * Section visionneuse des disciplines
+ * ***********************************************
+ * Styles pour le graphique (svg)
+ * Boutons de la visionneuse + styles pour glide.js
+ * Styles pour les icones flèches des boutons
+ * Pour empêcher le slide de la visionneuse (changement seulement au clic des boutons!)
+ * Textes et autres éléments de la visionneuse
+ *
+ * Section vidéo "La tim c'est quoi"
+ * ***********************************************
+ *
+ * Accroche étudiant d'un jour
+ * ***********************************************
+ *
+ * Accroche inscription
+ * ***********************************************
+ *
+ * Accroche test ton profil
+ * ***********************************************
+ */
+
+/*** Régles générales ***/
+.programme {
+  margin-top: 0;
+  padding-top: 0;
+  .disciplines {
+    margin-bottom: 100px;
+    @media (min-width: $tablette) {
+      margin-bottom: 240px;
+    }
+  }
+  &__etuJour, &__inscription, &__profil {
+    padding-top: 50px;
+    @media (min-width:$tablette) {
+      padding-top: 100px;
+      padding-bottom:40px;
+    }
+  }
+
+  // *******************************************************************************************
+  // Section de l'entête avec vidéo
+  // *******************************************************************************************
+  &__banner {
+    background-color: $presqueNoir;
+    position: relative;
+    max-height: 600px;
+    overflow: hidden;
+    @media (min-width: $tablette) {
+      min-height: 600px;
+    }
+  }
+
+  .banner {
+    // Régles pour le bouton play/pause du vidéo
+    // --------------------------------------------------------
+    .bouton__conteneur {
+      position: relative;
+    }
+    .bouton {
+      // Non visible si plus petit que $mobile
+      @media (min-width: $mobile) {
+        // ** Pour écraser les styles habituels de la classe .bouton
+        border: none;
+        padding: 0;
+        min-width: initial;
+        width: 50px;
+        height: 50px;
+        &:before {
+          background-size: 408%;
+          @media (min-width:$tablette) {
+            background-size: 368%;
+          }
+          @media (max-width: $tablette) {
+            width: 120%;
+            top: 33%;
+            left: 8px;
+          }
+        }
+      }
+    }
+
+    &__video {
+      // Vidéo (seulement visible en écran plus large que 600px (+ que mobile)
+      // -----------------------------------------------------------------------
+      display: none;
+      @media (min-width: $mobile) {
+        vertical-align: bottom;
+        display: inline-block;
+        height: 120%;
+        width: 120%;
+      }
+      @media (min-width: $tablette) {
+        width: initial;
+      }
+      @media (min-width: $bureau) {
+        display: block;
+        margin: 0 auto;
+      }
+      &_controls {
+        display: none;
+        @media (min-width: $mobile) {
+          display: block;
+          position: absolute;
+          top: 100px;
+          right: 34px;
+          z-index: 1;
+        }
+        @media (min-width:$tablette) {
+          right: 86px;
+        }
+      }
+    }
+    &:after {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position:absolute;
+      top: 0;
+      max-height: 600px;
+      background-color: transparentize($presqueNoir, 0.5);
+    }
+
+    // Image en arrière-plan (seulement visible en écran plus petit que 600px (mobile)
+    // ------------------------------------------------------------------------------------
+    @media (max-width: $mobile) {
+      background: url('../images/programme_bannerMobile.jpg') no-repeat center 80px / 180%;
+      z-index: 5;
+      height: 50vh;
+    }
+    @media (max-width: $miniMobile) {
+      height: 60vh;
+    }
+  }
+  &__titre {
+    position: absolute;
+    z-index: 6;
+    bottom: 0;
+    padding: 10px;
+    margin-left: -10px;
+  }
+
+  // *******************************************************************************************
+  // Section visionneuse des disciplines
+  // *******************************************************************************************
+  .visionneuse {
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column nowrap;
+    @media (min-width: $tablette) {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: stretch;
+    }
+    // Styles pour le graphique (svg)
+    // --------------------------------------------------------
+    &__image {
+      display: flex;
+      align-items: center;
+      svg {
+        transform: rotate(90deg);
+        width: 80%;
+        height: 80%;
+        margin: 0 auto;
+        @media (min-width: $tablette) {
+          width: 79vw;
+          height: 100%;
+          max-width: 780px;
+          margin-left: -290px;
+          transform: none;
+        }
+      }
+    }
+    //Boutons de la visionneuse + styles pour glide.js
+    // --------------------------------------------------------
+    &__controls {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      margin: 0 10px;
+      position: relative;
+      button {
+        background-color: $presqueNoir;
+        color: $blanc;
+        border: none;
+        text-transform: uppercase;
+        font-family: "Vremena Grotesk Medium", Arial, sans-serif;
+        min-width: 116px;
+        padding: 6px;
+        &.glide__btnPrecedent, &.glide__btnSuivant {
+          &:before {
+            content: "";
+            background: url("../images/icone_fleche_visionneuse.svg") no-repeat center center / contain;
+            width: 150px;
+            height: 50px;
+            position: absolute;
+            display: inline-block;
+            top: -60px;
+          }
+          &:hover {
+            transform: translateY(-10px);
+            @media (min-width:$tablette) {
+              transform: translateX(-10px);
+            }
+          }
+          &:focus {
+            transform: scale(1.1);
+            outline: none;
+          }
+        }
+        &.glide__btnPrecedent {
+          transition: transform 0.3s ease-in-out;
+
+          &:before {
+            transform: scale(0.8, -0.8) rotate(-92deg);
+            left: -45px;
+            @media(min-width:$tablette) {
+              transform: rotate(0);
+              left: -24px;
+            }
+          }
+        }
+        &.glide__btnSuivant {
+          transition: transform 0.3s ease-in-out;
+
+          &:before {
+            transform: rotate(90deg) scale(0.8);
+            right: -48px;
+            @media(min-width:$tablette) {
+              transform: rotate(0) scale(1, -1);
+              right: 32px;
+              top: initial;
+              bottom: -60px;
+            }
+          }
+        }
+      }
+      @media (min-width: $tablette) {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        margin: 90px 0 90px -158px;
+        button {
+          min-width: 158px;
+          padding: 5px;
+        }
+      }
+    }
+
+    // Styles pour les icones flèches des boutons
+    // --------------------------------------------------------
+    &__boutons {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      width: 100%;
+      margin-top: -40px;
+
+      &_precedent {
+        margin-left: 20px;
+
+        .icone {
+          transform: scale(1, -1) rotate(-85deg);
+        }
+      }
+      &_prochain {
+        margin-right: 20px;
+        .icone {
+          transform: rotate(100deg);
+        }
+      }
+      &_precedent, &_prochain {
+        .bouton {
+          padding: 5px 10px;
+          display: flex;
+          flex-flow: column nowrap;
+          align-items: center;
+        }
+      }
+    }
+    // Pour empêcher le slide de la visionneuse (changement seulement au clic des boutons!)
+    // --------------------------------------------------------
+    .glide__slides {
+      pointer-events: none;
+    }
+    // Textes et autres éléments de la visionneuse
+    // --------------------------------------------------------
+    &__textes {
+      width: span(4 of 4);
+      @media (min-width:$tablette) {
+        width: span(6 of 12);
+        .glide {
+          display: flex;
+          flex-flow: row nowrap;
+          height: 100%;
+        }
+        .glide__track {
+          align-self: center;
+        }
+      }
+      &_liste {
+        overflow-x: hidden;
+        display: flex;
+        flex-flow: row nowrap;
+        width: calc(100vw - 20px);
+        .disciplines__etiquette {
+          margin-bottom: 10px;
+        }
+        .programmation {
+          .disciplines__etiquette {
+            background-color: transparentize(#647BFE, 0.6);
+          }
+        }
+        .integration {
+          .disciplines__etiquette {
+            background-color: transparentize(#78C0E0, 0.6);
+          }
+        }
+        .design {
+          .disciplines__etiquette {
+            background-color: transparentize(#F06543, 0.6);
+          }
+        }
+        .gestionConception {
+          .disciplines__etiquette {
+            background-color: transparentize(#1DE9B6, 0.6);
+          }
+        }
+        .creationMedias {
+          .disciplines__etiquette {
+            background-color: transparentize(#FEB13D, 0.6);
+          }
+        }
+      }
+      &_listeItem {
+        padding-left: 10px;
+        ul {
+          &:not(.etiquettes) {
+            list-style-image: url("../images/icone_listes.svg");
+            @include fontSize(18px);
+            font-weight: 300;
+            padding-left: 32px;
+
+            li {
+              margin-bottom: 16px;
+            }
+          }
+        }
+      }
+    }
+    .disciplines {
+      &__etiquettes {
+        display: flex;
+        flex-flow: row wrap;
+        padding-left: 36px;
+      }
+      &__etiquette {
+        margin-right: 16px;
+        padding: 3px 14px;
+      }
+      &__titre {
+        margin-bottom: 0;
+        margin-top: 0;
+      }
+      &__pourcentage {
+        @include fontSize(60px);
+        @media (min-width: $tablette) {
+          @include fontSize(90px);
+          margin-bottom: 20px;
+          line-height: 1;
+        }
+      }
+    }
+  }
+
+  // *******************************************************************************************
+  // Section vidéo "La tim c'est quoi"
+  // *******************************************************************************************
+  &__videoTIM {
+    background-color: transparentize($presqueNoir, 0.2);
+    padding: 20px 0;
+    position: relative;
+    div:not(.conteneur) {
+      width: 100%;
+      @include borderNoir;
+      box-shadow: 4px 4px 20px $presqueNoir;
+      padding-top: 56%;
+      position: relative;
+      background-color: $noir;
+    }
+    @media (min-width: $tablette) {
+      &:after {
+        content: "";
+        width: 500px;
+        height: 500px;
+        background: url(../images/motif_poisAleatoires.svg) no-repeat center / contain;
+        position: absolute;
+        top: -100px;
+        right: 0;
+        z-index: -1;
+      }
+      .conteneur {
+        display: flex;
+        flex-flow: row-reverse nowrap;
+        justify-content: space-between;
+      }
+      .videoTIM__titre {
+        width: span(5 of 12);
+        line-height: 1.1;
+        padding-top: 40px;
+      }
+      div:not(.conteneur) {
+        padding-top: 31%;
+        width: span(7 of 12);
+        margin-top: -120px;
+        @include borderNoir;
+        height: 100%;
+        box-shadow: 4px 4px 20px $presqueNoir;
+      }
+    }
+  }
+
+  // *******************************************************************************************
+  // Accroche étudiant d'un jour
+  // *******************************************************************************************
+  &__etuJour {
+    .etuJour {
+      &__titre {
+        margin-bottom: 0;
+      }
+      &__texte {
+        p {
+          margin-top: 6px;
+        }
+      }
+    }
+    .accroche {
+      box-shadow: -16px 18px $vertMenthe--80;
+    }
+    @media (min-width: $tablette) {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      align-items: flex-end;
+      .etuJour {
+        &__titre, &__texte {
+          width: span(6 of 12);
+        }
+        &__titre {
+          line-height: 1.1;
+          margin: 0;
+        }
+        &__texte {
+          @include fontSize(24px);
+          p {
+            margin-top: 0;
+            margin-bottom: 6px;
+          }
+        }
+      }
+    }
+  }
+
+  // *******************************************************************************************
+  // Accroche inscription
+  // *******************************************************************************************
+  &__inscription {
+    .inscription {
+      &__titre {
+        margin-bottom: 0;
+      }
+      &__texte {
+        p {
+          margin-top: 6px;
+        }
+      }
+    }
+    .accroche {
+      box-shadow: 16px 18px $jauneFlash--80;
+      text-align: right;
+    }
+    .conteneur__bouton {
+      margin-left: auto;
+      margin-right: 15px;
+    }
+    .bouton {
+      width: 200px;
+      display: flex;
+      justify-content: center;
+    }
+    .lien {
+      align-items: center;
+    }
+
+    @media (min-width: $tablette) {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: flex-end;
+
+      .conteneurFlex, .conteneurFlex--bas {
+        width: span(6 of 12);
+      }
+      .inscription {
+        &__titre {
+          margin: 0;
+          line-height: 1.1;
+        }
+        &__texte {
+          @include fontSize(24px);
+          p {
+            margin-top: 0;
+          }
+        }
+      }
+
+      .accroche {
+        padding: 72px 19px 25px 65px;
+      }
+      .conteneur__bouton {
+        margin-top: 30px;
+        margin-right: 0;
+      }
+      .lien {
+        @include fontSize(24px);
+        display: flex;
+      }
+    }
+  }
+
+  // *******************************************************************************************
+  // Accroche test ton profil
+  // *******************************************************************************************
+  &__profil {
+    .profil {
+      &__titre {
+        margin: 0;
+      }
+      &__texte {
+        p {
+          margin-top: 6px;
+        }
+      }
+    }
+    .accroche {
+      box-shadow: 16px 18px $mauveLilas--65;
+      &__titre {
+        margin-top: 14px;
+      }
+    }
+    .bouton {
+      width: 200px;
+      display: flex;
+      justify-content: center;
+    }
+
+    @media (min-width: $tablette) {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 100px;
+      .accroche {
+        width: span(7 of 12);
+        margin-top: 0;
+        &__titre {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}

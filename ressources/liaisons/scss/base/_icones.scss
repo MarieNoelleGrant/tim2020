@@ -1,0 +1,174 @@
+/**
+ * @author Marie-Noëlle Grant <m.noelle.grant@gmail.com>
+*/
+
+/**
+ * ------------------
+ * TABLE DES MATIÈRES
+ * ------------------
+ * Régles générales
+ *
+ * Icones pour boutons
+ * Icones sociaux
+ * Icones visionneuses
+ * Icones contact du diplômé
+ * Icones validation
+ * Icones vidéo (boutons)
+ *
+ */
+
+.icone {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+
+  // Icones pour boutons
+  // --------------------------------------------------------------
+  &__lienExterne, &__lienExterne--noir {
+    margin-left: 8px;
+    width: 20px;
+    height: 20px;
+  }
+  &__lienExterne {
+    background: url("../images/icone_lienExterne.svg") no-repeat center center / contain;
+    &--noir {
+      background: url("../images/icone_lienExterne--noir.svg") no-repeat center center / contain;
+    }
+  }
+  &__rafraichir {
+    background: url("../images/icone_refresh.svg") no-repeat center center / contain;
+    margin-right: 8px;
+  }
+  &__chevron {
+    background: url("../images/icone_chevron.svg") no-repeat center center / contain;
+    transition: transform 0.5s ease-in-out;
+    &--blanc {
+      background: url("../images/icone_chevron--blanc.svg") no-repeat center center / contain;
+      transition: transform 0.5s ease-in-out;
+    }
+    &--gauche {
+      transform: rotate(90deg);
+    }
+    &--droite {
+      transform: rotate(-90deg);
+    }
+    &--haut {
+      transform: rotate(180deg);
+    }
+  }
+  &__random {
+    background: url("../images/icone_aleatoire.svg") no-repeat center center / contain;
+    margin-right: 8px;
+    @media (min-width: $tablette) {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  &__filtre {
+    background: url("../images/icone_filtre.svg") no-repeat center center / contain;
+    margin-right: 8px;
+    width: 38px;
+    height: 38px;
+    @media (min-width: $tablette) {
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  // Icones sociaux
+  // --------------------------------------------------------------
+  &__twitter {
+    background: url("../images/icone_twitter.svg") no-repeat center center / contain;
+    margin-right: 6px;
+    @media (min-width:$tablette) {
+      margin-right: 10px;
+    }
+    &--fonce {
+      background: url("../images/icone_twitter--fonce.svg") no-repeat center center / contain;
+      margin-left: 8px;
+    }
+  }
+  &__facebook {
+    background: url("../images/icone_facebook.svg") no-repeat center center / contain;
+    margin-left: 8px;
+    &--blanc {
+      background: url("../images/icone_facebook--blanc.svg") no-repeat center center / contain;
+    }
+  }
+
+  // Icones visionneuses
+  // --------------------------------------------------------------
+  &__flecheVisionneuse {
+    background: url("../images/icone_fleche_visionneuse.svg") no-repeat center center / contain;
+    width: 150px;
+    height: 50px;
+  }
+  &__menu {
+    background: url("../images/icone_menu--ouvert.svg") no-repeat center center / contain;
+    width: 38px;
+    height: 38px;
+    &--fermer {
+      background: url("../images/icone_menu--fermer.svg") no-repeat center center / contain;
+      width: 38px;
+      height: 38px;
+    }
+  }
+
+  // Icones contact du diplômé
+  // --------------------------------------------------------------
+  &__courriel {
+    background: url("../images/icone_courriel.svg") no-repeat center center / contain;
+    margin-right: 6px;
+    @media (min-width:$tablette) {
+      margin-right: 10px;
+    }
+  }
+  &__portfolio {
+    background: url("../images/icone_portfolio.svg") no-repeat center center / contain;
+    margin-right: 6px;
+    @media (min-width:$tablette) {
+      margin-right: 10px;
+    }
+  }
+  &__linkedin {
+    background: url("../images/icone_linkedin.svg") no-repeat center center / contain;
+    margin-right: 6px;
+    @media (min-width:$tablette) {
+      margin-right: 10px;
+    }
+  }
+
+  // Icones validation
+  // --------------------------------------------------------------
+  &__erreur {
+    background: url("../images/icone_erreur.svg") no-repeat center center / contain;
+    margin-right: 6px;
+  }
+  &__crochet {
+    background: url("../images/icone_crochet.svg") no-repeat center center / contain;
+    margin-right: 6px;
+  }
+
+  // Icones vidéo (boutons)
+  // --------------------------------------------------------------
+  &__video {
+    &--play {
+      background: url("../images/icone_play.svg") no-repeat center center / contain;
+
+      @media (min-width: $tablette) {
+        width: 38px;
+        height: 38px;
+      }
+    }
+    &--pause {
+      background: url("../images/icone_pause.svg") no-repeat center center / contain;
+      width: 20px;
+      height: 20px;
+      @media (min-width: $tablette) {
+        width: 33px;
+        height: 30px;
+        margin-right: 2px;
+      }
+    }
+  }
+}

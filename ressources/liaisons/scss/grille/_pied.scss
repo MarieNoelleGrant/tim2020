@@ -1,0 +1,176 @@
+/**
+ * @author Marie-Noëlle Grant <m.noelle.grant@gmail.com>
+*/
+
+/**
+ * ------------------
+ * TABLE DES MATIÈRES
+ * ------------------
+ *
+ * Section feeds réseaux sociaux
+ * ***********************************************
+ *
+ * Section footer "classique"
+ * ***********************************************
+ * Section logo tim + sociaux
+ * Section logo cegep
+ *
+ */
+
+.footer {
+  background-color: transparentize($presqueNoir, 0.2);
+  padding-top: 60px;
+  @media (min-width: $tablette) {
+    padding-top: 100px;
+  }
+  // *******************************************************************************************
+  // Section feeds réseaux sociaux
+  // *******************************************************************************************
+  &__feedSociaux {
+    @media (min-width: $tablette) {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+    }
+  }
+
+  .feed {
+    .h2 {
+      width: 100%;
+      margin: 0;
+    }
+    &__entete {
+      background-color: $presqueNoir;
+      display: flex;
+      flex-flow: row nowrap;
+      margin: 0;
+      padding-top: 10px;
+      .icone {
+        width: 32px;
+        height: 32px;
+      }
+    }
+    &__facebook, &__twitter {
+      @include borderNoir;
+      @include boxShadow--conteneurs;
+      margin-bottom: 20px;
+      @media (min-width: $tablette) {
+        width: span(6 of 12);
+        height: fit-content;
+      }
+      .ctf, #cff {
+        background-color: $blanc;
+      }
+    }
+
+    &__twitter {
+      #ctf .ctf-item {
+        padding: 15px;
+      }
+    }
+  }
+
+
+  // *******************************************************************************************
+  // Section footer "classique"
+  // *******************************************************************************************
+  &__conteneur {
+    background-color: $presqueNoir;
+    color: $blanc;
+    padding: 0 0 20px;
+  }
+
+  &__flex {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    @media (min-width: $tablette) {
+      flex-flow: row nowrap;
+      justify-content: space-between;
+    }
+  }
+
+
+  // Section logo tim + sociaux
+  // -------------------------------
+  &__logoSociaux {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    @media (min-width: $tablette) {
+      width: span(8 of 12);
+    }
+  }
+  &__lienTIM {
+    width: span(3 of 4);
+    @media (min-width: $mobile) {
+      width: span(6 of 12);
+    }
+    @media (min-width: $tablette) {
+      width: span(4 of 8);
+    }
+  }
+  &__sociaux {
+    margin: 0 0 15px 30px;
+    @media (max-width: $mobile) {
+      margin-right: -10px;
+    }
+    .conteneur__bouton {
+      margin-bottom: 22px;
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+    .bouton {
+      @include fontSize(16px);
+      font-family: Roboto, Arial, sans-serif;
+      font-weight: 400;
+      padding: 8px;
+      display: flex;
+      align-items: center;
+      min-width: initial;
+      @media (max-width: $mobile) {
+        .facebook__texte, .twitter__texte {
+          display: none;
+        }
+      }
+      .icone {
+        margin-left: 0;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .twitter {
+    .bouton__primaire:before {
+      background-size: 188%;
+    }
+  }
+
+  // Section logo cégep
+  // -------------------------------
+  &__logoCegep {
+    margin: 45px auto 0;
+    display: block;
+    @media (min-width: $tablette) {
+      margin-right: gutter(12)*2;
+      display: initial;
+    }
+  }
+
+  &__credits {
+    color: $blanc;
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 300;
+  }
+
+  // Régle spécifique pour le footer dans les autres pages que Programme
+  // -------------------------------------------------------------------
+  &.footer__court {
+    padding-top: 0;
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "nomComplet": {
+    "label": "Nom complet",
+    "erreurs": {
+      "vide": "Entrez votre prénom et nom complet",
+      "motif": "Votre prénom et/ou votre nom doit commencer par une majuscule et ne contenir que des lettres."
+    }
+  },
+  "courriel": {
+    "label": "Courriel",
+    "erreurs": {
+      "vide": "Veuillez entrer votre adresse courriel",
+      "motif": "Votre courriel semble invalide. Veuillez le revérifier s'il-vous-plait."
+    }
+  },
+  "destinataire": {
+    "label": "Destinataire",
+    "erreurs": {
+      "vide": "Sélectionnez un destinataire!",
+      "motif": "Veuillez choisir un autre destinataire."
+    }
+  },
+  "sujet": {
+    "label": "Sujet",
+    "erreurs": {
+      "vide": "Entrez le sujet du courriel!",
+      "motif": "Le sujet de votre message ne contenir que des caractères alphanumériques."
+    }
+  },
+  "nomEntreprise": {
+    "label": "Entreprise",
+    "erreurs": {
+      "vide": "Entrez le nom de votre entreprise!",
+      "motif": "Le nom de votre entreprise ne contenir ici que des caractères alphanumériques."
+    }
+  },
+  "message": {
+    "label": "Message",
+    "erreurs": {
+      "vide": "Votre message est absent!",
+      "motif": "Votre message ne doit comporter que des caratères alphanumériques."
+    }
+  },
+  "humain": {
+    "erreurs": {
+      "vide": "Êtes-vous un robot?",
+      "motif": "Votre réponse n'est pas adéquate!"
+    }
+  },
+  "retroactions": {
+    "courriel": {
+      "completer": "Veuillez compléter le formulaire.",
+      "envoyer": "Le courriel a été envoyé.",
+      "avorter": "L'envoi du courriel a avorté."
+    }
+  },
+  "banqueFutursStages": {
+    "erreurs": {
+      "vide": "",
+      "motif": "Une erreur s'est produite. Veuillez vérifier vos réponses et resoumettre le formulaire."
+    }
+  }
+}

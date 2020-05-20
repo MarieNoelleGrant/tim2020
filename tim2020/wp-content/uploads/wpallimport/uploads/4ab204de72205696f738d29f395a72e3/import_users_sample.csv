@@ -1,0 +1,6 @@
+username,realname,alias1,alias2,email,status,phone1,phone2,platform1,platform2,group1,group2,notes
+jason,Jason Smith,jason@example.com,smithj3,jason@example.com,active,734-555-1234,734-555-3232,iphone,mobile,StdUsers,,
+sally,Sally Jones,sally@example.com,joness5,sally@example.com,disabled,(734)-555-1235,(734)-555-4343,android,landline,StdUsers,,activate account after 2013
+jack,Jack Johnson,jack@example.com,,jack@example.com,bypass,734-555-4322,,blackberry,,StdUsers,NetAdmins,
+sarah,Sarah James,sarah@example.com,,sarah@example.com,active,(734) 555-2235,(734) 555-3302 x3243,blackberry10,landline,StdUsers,,
+bob,Bob Rogers,bob@example.com,rogersb,bob@example.com,active,734 555 3444,734 223 9836,windows phone,smartphone,StdUsers,,

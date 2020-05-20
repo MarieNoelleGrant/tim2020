@@ -1,0 +1,80 @@
+/**
+ * @author Marie-Noëlle Grant <m.noelle.grant@gmail.com>
+*/
+
+/**
+ * ------------------
+ * TABLE DES MATIÈRES
+ * ------------------
+ * Importation des fonts
+ * Polices de caractères
+ *
+ * Palette de couleurs
+ * - Principales
+ * - Secondaires
+ *
+ * Points de rupture
+ */
+
+
+/** Importation des fonts **/
+@font-face {
+  font-family: "Vremena Grotesk";
+  src: url("../fontes/VremenaGrotesk/vremenagrotesk.otf") format("opentype"),
+       url('../fontes/VremenaGrotesk/vremenagrotesk-webfont.ttf') format("truetype"),
+       url('../fontes/VremenaGrotesk/vremenagrotesk-webfont.woff') format("woff"),
+       url('../fontes/VremenaGrotesk/vremenagrotesk-webfont.woff2') format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Vremena Grotesk Medium";
+  src: url("../fontes/VremenaGrotesk/vremenagroteskmedium.otf") format("opentype"),
+       url('../fontes/VremenaGrotesk/vremenagroteskmedium-webfont.ttf') format("truetype"),
+       url('../fontes/VremenaGrotesk/vremenagroteskmedium-webfont.woff') format("woff"),
+       url('../fontes/VremenaGrotesk/vremenagroteskmedium-webfont.woff2') format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Vremena Grotesk Book";
+  src: url("../fontes/VremenaGrotesk/vremenagroteskbook.otf") format("opentype"),
+       url('../fontes/VremenaGrotesk/vremenagroteskbook-webfont.ttf') format("truetype"),
+       url('../fontes/VremenaGrotesk/vremenagroteskbook-webfont.woff') format("woff"),
+       url('../fontes/VremenaGrotesk/vremenagroteskbook-webfont.woff2') format("woff2");
+  font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+/** Polices de caractères **/
+
+$fontePrimaire: 'Vremena Grotesk', Arial, sans-serif;
+$fontePrimaire--medium: 'Vremena Grotesk Medium', Arial, sans-serif;
+$fontePrimaire--book: 'Vremena Grotesk Book', Arial, sans-serif;
+$fonteSecondaire: 'Roboto', Arial, sans-serif;
+
+/** Palette de couleurs **/
+
+/* Principales */
+$noir : #000;
+$blanc : #fff;
+$presqueNoir : #1E1E1E;
+
+/* Secondaires */
+$vertMenthe : #1DE9B6;
+$vertMenthe--80 : transparentize(#1DE9B6, 0.2);
+$jauneFlash : #FFEA00;
+$jauneFlash--80 : transparentize(#FFEA00, 0.2);
+$mauveLilas : #647BFE;
+$mauveLilas--65 : transparentize(#647BFE, 0.35);
+$jauneOcre : #FEB13D;
+$jauneOcre--80 : transparentize(#FEB13D, 0.2);
+
+$rougeErreur : #EE302C;
+
+
+
+/** Points de rupture **/
+$bureau : 1200px;
+$tablette : 840px;
+$mobile : 600px;
+$miniMobile : 390px;

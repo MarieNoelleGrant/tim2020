@@ -1,0 +1,212 @@
+/*
+   Theme Name: site_tim2020
+   Author: Marie-Noëlle Grant
+   Description: Thème pour le site web de la TIM 2020 (projet synthèse)
+   Version: 0.1
+   */
+
+/* Styles généraux */
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0 10px;
+    padding: 0;
+    font: .8em Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* Structure générale */
+#en-tete, nav, #contenu, footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+label.screen-reader-text {
+    display: block;
+}
+main, #article-seul {
+    border-bottom: 1px solid #333;
+}
+aside ul {
+    margin-left: 0;
+}
+
+/* En-tête */
+#en-tete {
+    background-color: #eee;
+    border-bottom: 1px solid #333;
+}
+#en-tete h1 {
+    margin: 0;
+    padding: 10px;
+}
+/* Barre de menu */
+nav {
+    border-bottom: 1px solid #333;
+}
+nav ul {
+    list-style: none;
+    margin: 10px 0 10px 10px;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+/* Les articles en page d'accueil */
+article {
+    border-bottom: 1px dotted #333;
+    padding-right: 8px;
+}
+article header.titre-article a {
+    text-decoration: none;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.3em;
+    color: #000;
+}
+/* Mise en forme de la sidebar */
+aside ul {
+    list-style: none;
+    margin: 10px 0 10px 10px;
+    padding: 0;
+}
+/* Le pied de page */
+footer {
+    background-color: #eee;
+    border-top: 1px solid #333;
+    clear: both;
+}
+footer h2 {
+    margin: 0;
+    padding: 10px;
+    font-size: 1em;
+}
+/* Les articles en page seule */
+#article-seul {
+    padding-right: 8px;
+}
+.metadata {
+    font-size: 0.8em;
+    color: gray;
+}
+/* Les pages */
+.en-tete-page {
+    font-style: italic;
+}
+/* Règles pour grands écrans */
+@media only screen and (min-width: 735px) {
+    main, aside, #article-seul {
+        display: table-cell;
+        border-bottom: none;
+    }
+    main, #article-seul {
+        width: 70%;
+    }
+    aside {
+    }
+}
+
+
+/* Régles de style prises du cadriciel Kube */
+header {
+    padding : 10px;
+    border-bottom : 1px solid #333;
+}
+.inline  {
+    display : inline;
+}
+
+.units-row {
+    max-width : 1140px;
+    margin : 0 auto;
+}
+.unit-100 {
+    width: 100%;
+}
+.unit-75 {
+    width: 75%;
+}
+.unit-50 {
+    width: 50%;
+}
+.unit-25 {
+    width: 25%;
+}
+
+/* Barres des menus */
+#principal, #secondaire {
+    border-bottom : 1px solid #333;
+}
+#en-tete nav ul {
+    margin : 0 0 0 10px;
+    padding : 10px 0 10px 10px;
+    list-style : none;
+}
+
+#en-tete nav li {
+    display : inline-block;
+    margin : 0 10px 0 0;
+}
+
+/* Mise en forme des sidebar */
+#gauche ul, #droite ul {
+    margin : 0 0 0 10px;
+    padding : 10px 0 10px 10px;
+    list-style : none;
+}
+
+/* Mise en forme du pied de page */
+footer {
+    border-top : 1px solid #333;
+    padding : 10px; }
+footer p {
+    margin :   0;
+}
+
+/* Mis en forme des articles au format Par défaut */
+. article {
+    padding-left : 0;
+    border : none;
+}
+.extrait {
+    font-style : italic;
+    color : gray; }
+.post-categories::before {
+    content : "Catégorie : ";
+}
+.post-categories {
+    list-style : none;
+    display : inline-block;
+    padding : 0;
+    margin : 0;
+}
+.post-categories li {
+    display : inline-block;
+}
+footer .article {
+    font-size: small;
+    font-style : italic;
+    color : gray;
+}
+
+/* Mis en forme des articles au format En passant */
+.single-format-aside .contenu {
+    padding-left : 20px;
+    border-left : 1px solid #bbb;
+}
+
+/* Mise en forme de l'auteur */
+.auteur {
+    margin-left : 20px;
+    border-left : 1px solid #333;
+    background-color : #eee;
+    padding : 20px;
+}
+.libelle {
+    font-weight : bold;
+}
+
+/* Derniers articles */
+.derniers-articles {
+    border: 1px solid black;
+    padding: 10px;
+}

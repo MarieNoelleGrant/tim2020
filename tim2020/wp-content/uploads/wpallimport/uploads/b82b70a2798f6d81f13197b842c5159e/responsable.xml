@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<id><![CDATA[1]]></id>
+		<responsabilite><![CDATA[Coordonnateur départemental]]></responsabilite>
+		<courriel><![CDATA[slamoureux@cegep-ste-foy.qc.ca]]></courriel>
+		<prenom><![CDATA[Sylvain]]></prenom>
+		<nom><![CDATA[Lamoureux]]></nom>
+		<telephone><![CDATA[(418) 659-6600 poste 6662]]></telephone>
+	</node>
+	<node>
+		<id><![CDATA[2]]></id>
+		<responsabilite><![CDATA[Webmestre]]></responsabilite>
+		<courriel><![CDATA[mrouleau@cegep-ste-foy.qc.ca]]></courriel>
+		<prenom><![CDATA[Michel]]></prenom>
+		<nom><![CDATA[Rouleau]]></nom>
+		<telephone><![CDATA[(418) 659-6600 poste 6659]]></telephone>
+	</node>
+	<node>
+		<id><![CDATA[3]]></id>
+		<responsabilite><![CDATA[Responsable des stages]]></responsabilite>
+		<courriel><![CDATA[stages-tim@cegep-ste-foy.qc.ca]]></courriel>
+		<prenom><![CDATA[Michelle]]></prenom>
+		<nom><![CDATA[Decorte]]></nom>
+		<telephone><![CDATA[(418) 659-6600 poste 6653]]></telephone>
+	</node>
+	<node>
+		<id><![CDATA[4]]></id>
+		<responsabilite><![CDATA[Responsable "Étudiant d'un jour"]]></responsabilite>
+		<courriel><![CDATA[bfrigon@cegep-ste-foy.qc.ca]]></courriel>
+		<prenom><![CDATA[Benoît]]></prenom>
+		<nom><![CDATA[Frigon]]></nom>
+		<telephone><![CDATA[(418) 659-6600 poste 6656]]></telephone>
+	</node>
+</data>

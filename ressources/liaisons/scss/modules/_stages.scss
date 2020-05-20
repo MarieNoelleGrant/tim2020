@@ -1,0 +1,324 @@
+/**
+ * @author Marie-Noëlle Grant <m.noelle.grant@gmail.com>
+*/
+
+/**
+ * ------------------
+ * TABLE DES MATIÈRES
+ * ------------------
+ * Régles générales
+ *
+ * Section pour les futurs étudiants
+ * **************************************
+ * Stage 3e année
+ * Accroche France
+ * Stage 1e-2e années
+ * Accroche pour contact responsable
+ *
+ * Section pour les employeurs
+ * **************************************
+ */
+
+/*** Régles générales ***/
+.stages {
+  &__banner {
+    margin: 50px 0;
+    @media (min-width: $tablette) {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  &__titre {
+    margin: 0;
+  }
+  &__texte {
+    margin-top: 0;
+    @include fontSize(20px);
+    @media (min-width: $tablette) {
+      @include fontSize(22px);
+      font-weight: 200;
+      padding-left: gutter(12);
+      margin-top: 20px;
+    }
+  }
+
+
+  // *******************************************************************************************
+  // Section pour les futurs étudiants
+  // *******************************************************************************************
+  &__textesInfo {
+    margin-bottom: 70px;
+  }
+
+  .premiereDeuxieme, .troisieme {
+    margin-bottom: 160px;
+    @media (min-width: $mobile) {
+      margin-bottom: 80px;
+    }
+    &__texte {
+      border: 2px solid $presqueNoir;
+      background-color: $blanc;
+      padding: 20px 14px;
+      @media (min-width: $mobile) {
+        padding: 20px 24px;
+      }
+    }
+  }
+  /*** Stage 3e année ***/
+  .troisieme {
+    position: relative;
+    &__titre {
+      margin-bottom: 5px;
+      sup {
+        text-transform: lowercase;
+      }
+    }
+    &__texte {
+      box-shadow: 23px 18px $jauneOcre--80;
+
+      @media(min-width: $mobile) {
+        width: span(7 of 12);
+      }
+      p {
+        margin: 0;
+      }
+      @media (min-width:$mobile) {
+        &:before {
+          content: "";
+          background: url('../images/motif_lignes.svg') no-repeat center / contain;
+          width: 300px;
+          height: 250px;
+          position: absolute;
+          z-index: -1;
+          top: 60px;
+          left: -110px;
+          right: initial;
+          transform: none;
+        }
+      }
+
+    }
+    /*** Accroche France ***/
+    &__france {
+      background: transparentize($presqueNoir, 0.2) url('../images/icone_tourEiffel.svg') no-repeat left center;
+      background-size: 66px 182px;
+      position: absolute;
+      z-index: -1;
+      margin-left: -10px;
+      bottom: -86px;
+      @media (min-width: $mobile) {
+        top: 0;
+        right: 127px;
+        bottom: initial;
+        width: 322px;
+        background-size: 138px 220px;
+        margin-left: initial;
+      }
+      p {
+        color: $blanc;
+        @include fontSize(18px);
+        font-weight: 300;
+        line-height: 1.2;
+        margin-top: 30px;
+        margin-left: span(1 of 4) + gutter(4);
+        font-size: 1.8rem;
+        @media (min-width: $mobile) {
+          @include fontSize(23px);
+          width: span(2 of 4) - gutter(12);
+          margin-left: span(2 of 4) + gutter(12);
+          margin-top: 96px;
+          margin-bottom: 8px;
+        }
+        .emphase {
+          text-transform: uppercase;
+          @include fontSize(24px);
+          font-family: 'Vremena Grotesk Medium', Arial, sans-serif;
+          margin-top: 4px;
+          @media (min-width:$mobile) {
+            @include fontSize(32px);
+          }
+        }
+      }
+    }
+  }
+
+  /*** Stage 1e-2e années ***/
+  .premiereDeuxieme {
+    position: relative;
+    @media (max-width:$mobile) {
+      margin-bottom: 40px;
+    }
+    @media (min-width: $mobile) {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: flex-end;
+    }
+    &__titre {
+      text-align: right;
+      line-height: 1.2;
+      @media (min-width: $mobile) {
+        width: span(3 of 12);
+        margin-right: gutter(12);
+      }
+    }
+    &__texte {
+      box-shadow: 23px -20px $mauveLilas--65;
+      p {
+        margin: 0;
+      }
+      @media (min-width: $mobile) {
+        width: span(7 of 12);
+        &:before {
+          content: "";
+          background: url('../images/motif_poisAleatoires.svg') no-repeat center / contain;
+          width: 360px;
+          height: 380px;
+          position: absolute;
+          transform: rotate(-163deg);
+          right: -120px;
+          top: -90px;
+          z-index: -1;
+        }
+      }
+    }
+  }
+
+  /*** Accroche pour contact responsable ***/
+  &__accroche {
+    background-color: $blanc;
+    box-shadow: -12px 12px transparentize($presqueNoir, 0.2);
+    padding: 5px 20px;
+    @media (min-width: $mobile) {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .accroche__texte {
+      padding-top: 10px;
+    }
+  }
+
+  // *******************************************************************************************
+  // Section pour les employeurs
+  // *******************************************************************************************
+  &__employeurs {
+    background-color: transparentize($presqueNoir, 0.1);
+    padding-top: 30px;
+  }
+  .employeurs {
+    &__contenu {
+      background-color: $blanc;
+      padding: 10px;
+      @media (min-width: $mobile) {
+        padding: 40px 30px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+      }
+    }
+    &__informations {
+      @media (min-width: $mobile) {
+        width: span(4 of 12) + gutter(12);
+      }
+      .icone {
+        margin-left: 0;
+      }
+      .lien {
+        @include fontSize(16px);
+      }
+    }
+    .infoStage {
+      &__1e2e, &__3 {
+        margin-bottom: 30px;
+        @media (min-width:$mobile) {
+          margin-bottom: 20px;
+        }
+        &_dateDebut {
+          position: relative;
+          text-transform: uppercase;
+          width: fit-content;
+          @include fontSize(24px);
+          z-index:1;
+          font-family: "Vremena Grotesk Medium", Arial, sans-serif;
+          &:after {
+            content: "";
+            height: 50%;
+            position: absolute;
+            z-index: -1;
+            bottom: 0;
+            left: 0;
+          }
+
+          @media (min-width:$mobile) {
+            @include fontSize(30px);
+          }
+        }
+
+        &_definition {
+          @include fontSize(20px);
+          font-weight: 500;
+          margin-bottom: 10px;
+        }
+
+        &_pointsForts {
+          ul {
+            list-style-image: url("../images/icone_listes.svg");
+            padding-left: 16px;
+          }
+          li {
+            margin-bottom: 6px;
+          }
+        }
+      }
+      &__1e2e {
+        &_dateDebut:after {
+          background-color: $mauveLilas--65;
+          width: 110%;
+        }
+      }
+      &__3 {
+        &_dateDebut:after {
+          background-color: $jauneOcre--80;
+          width: 80%;
+        }
+      }
+    }
+
+    &__contact {
+      margin-top: 50px;
+      @media (min-width: $mobile) {
+        margin-top: initial;
+        width: span(7 of 12);
+      }
+      &_titre {
+        margin-bottom: 0;
+        @media(min-width: $mobile) {
+          @include fontSize(30px);
+          line-height: 1.1;
+          margin-top: 22px;
+        }
+      }
+      &_texte {
+        margin-top: 8px;
+        margin-bottom: 24px;
+        @include fontSize(18px);
+        @media (min-width:$mobile) {
+          margin: initial;
+        }
+        .emphase {
+          font-weight: 500;
+        }
+      }
+      .form {
+        width: 100%;
+        label {
+          @include fontSize(16px);
+        }
+      }
+    }
+  }
+}
+

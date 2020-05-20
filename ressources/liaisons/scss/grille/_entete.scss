@@ -1,0 +1,165 @@
+/**
+ * @author Marie-Noëlle Grant <m.noelle.grant@gmail.com>
+*/
+
+/**
+ * ------------------
+ * TABLE DES MATIÈRES
+ * ------------------
+ * Régles générales
+ *
+ * Régles pour le menu généré par wordpress
+ *
+ * Régles pour les différents états
+ * -- États hover+focus
+ *
+ * Régles pour le menu mobile
+ */
+
+/*** Régles générales ***/
+.header {
+  &__conteneur {
+    background-color: transparentize($presqueNoir, 0.1);
+    padding: 0 10px;
+  }
+  @media(min-width: $tablette) {
+    &__conteneur {
+      padding: 0 60px;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  @media (max-width: $tablette) {
+    &__logo {
+      display: inline-block;
+      transform: scale(0.72);
+      transform-origin: top left;
+      transition: transform 0.3s ease-in-out;
+      &--zoom {
+        transform: scale(1);
+        transition: transform 0.3s ease-in-out;
+      }
+    }
+  }
+
+}
+
+/*** Régles pour le menu généré par wordpress **/
+.menu {
+  @media (min-width:$tablette) {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-principal-container {
+    width: fit-content;
+  }
+  &-item {
+    @media(max-width:$tablette) {
+      width: 100%;
+      padding: 0 0 0 13px;
+      display: inline-block;
+      margin: 0 0 10px 0;
+      background-color: white;
+    }
+    @media (min-width:$tablette) {
+      text-align: center;
+      padding: 5px 20px;
+    }
+    a {
+      transition: 0.5s;
+      text-transform: uppercase;
+      @include fontSize(18px);
+      font-family: "Vremena Grotesk", Arial, sans-serif;
+      @media (max-width: $tablette) {
+        width: fit-content;
+        padding: 6px 16px;
+        margin: 6px;
+        display: inline-block;
+      }
+      @media (min-width:$tablette) {
+        width: 100%;
+        color: $blanc;
+        padding: 5px 10px;
+      }
+      &:focus {
+        outline: none;
+        box-shadow: inset 9em 0 0 0 $presqueNoir;
+        color: $blanc;
+        @media (min-width: $tablette) {
+          box-shadow: inset 9em 0 0 0 $blanc;
+          color: $presqueNoir;
+        }
+      }
+    }
+    /*** Régle pour les différents états ***/
+    &:focus {
+      outline: none;
+    }
+    &:hover, &:active, &.current-menu-item {
+      a {
+        box-shadow: inset 9em 0 0 0 $presqueNoir;
+        color: $blanc;
+        @media (min-width: $tablette) {
+          box-shadow: inset 9em 0 0 0 $blanc;
+          color: $presqueNoir;
+        }
+      }
+    }
+  }
+}
+
+
+
+/*** Régles pour le menu mobile ***/
+.js {
+  .header {
+    position: fixed;
+    height: initial;
+    width: 100%;
+    z-index: 7;
+    transition: top ease-in-out 0.3s;
+    top: 0;
+    &--cache {
+      top: -100px;
+    }
+  }
+  .nav {
+    overflow: hidden;
+  }
+  .menu {
+    &__btnMenu {
+      display: none;
+    }
+  }
+  @media (max-width:$tablette) {
+    .menu {
+      opacity: 1;
+      height: 260px;
+      transition: height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+      margin-left: -10px;
+      &--ferme {
+        height: 0;
+        opacity: 0;
+        overflow: hidden;
+        margin:0;
+      }
+
+      &__btnMenu {
+        display: initial;
+        background-color: transparent;
+        border: none;
+        position: absolute;
+        top: 10px;
+        right: 0;
+      }
+
+      &-principal-container {
+        width: initial;
+      }
+    }
+  }
+}

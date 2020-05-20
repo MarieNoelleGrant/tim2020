@@ -1,0 +1,124 @@
+/**
+ * @author Marie-Noëlle Grant <m.noelle.grant@gmail.com>
+*/
+
+/**
+ * ------------------
+ * TABLE DES MATIÈRES
+ * ------------------
+ * Régles générales
+ *
+ * Section du formulaire
+ * **************************************
+ *
+ * Section des responsables
+ * **************************************
+ */
+
+/*** Régles générales ***/
+.contact {
+  &__banner {
+    margin: 50px 0 30px;
+    @media (min-width: $tablette) {
+      margin-bottom: 50px;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  &__titre {
+    margin: 0;
+  }
+  &__intro {
+    margin-top: 0;
+    @include fontSize(20px);
+    @media (min-width: $tablette) {
+      @include fontSize(22px);
+      font-weight: 200;
+      padding-left: gutter(12);
+    }
+  }
+
+
+  &__contenu {
+    @media(min-width:$tablette) {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+    }
+  }
+
+  // *******************************************************************************************
+  // Section du formulaire
+  // *******************************************************************************************
+  &__conteneurForm {
+    @media(min-width: $tablette){
+      width: span(7 of 12);
+    }
+  }
+  .form {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    background-color: $blanc;
+    box-shadow: 16px 16px $vertMenthe--80;
+    @media (min-width: $tablette) {
+      box-shadow: 22px 22px $vertMenthe--80;
+      margin-top: 0;
+    }
+  }
+}
+
+
+// *******************************************************************************************
+// Section des responsables
+// *******************************************************************************************
+.responsables {
+  margin-left: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  @media (min-width: $tablette) {
+    display: initial;
+  }
+}
+
+.responsable {
+  display: flex;
+  flex-flow: column nowrap;
+  width: span(2 of 4);
+  align-items: flex-start;
+  margin-bottom: 10px;
+  @media (min-width: $mobile) {
+    width: span(6 of 12);
+  }
+  @media (min-width: $tablette) {
+    width: initial;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    margin-bottom: 24px;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  &__infos {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-left: 5px;
+  }
+  &__tache {
+    font-weight: 300;
+  }
+  &__nom {
+    margin-bottom: 5px;
+    @media (max-width: $mobile) {
+      margin-top: 5px;
+    }
+  }
+  &__image {
+    width: 100px;
+    height: 100px;
+    box-shadow: -6px 6px transparentize($presqueNoir, 0.2);
+  }
+}

@@ -1,0 +1,291 @@
+/**
+ * @author Marie-Noëlle Grant <m.noelle.grant@gmail.com>
+*/
+
+/**
+ * ------------------
+ * TABLE DES MATIÈRES
+ * ------------------
+ * Régles générales
+ *
+ * Titre (élément graphique + accroche)
+ * **************************************
+ *
+ * Réalisation
+ * **************************************
+ *
+ * Motif décoratif en arrière plan
+ * **************************************
+ */
+
+
+/*** Régles générales ***/
+.accueil {
+  padding-top: 20px;
+  @media (max-width: $tablette) {
+    padding-bottom: 100px;
+    padding-top: 65px;
+  }
+  @media (min-width: $tablette) {
+    height: 100vh;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    //max-width: 1440px;
+    margin: auto;
+  }
+  @media (min-width: 1800px) {
+    position: relative;
+    max-width: 80vw;
+  }
+
+  // *******************************************************************************************
+  // Titre (élément graphique + accroche)
+  // *******************************************************************************************
+  &__titreAccroche {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 45px 10px;
+    @media (min-width: $tablette) {
+      margin-right: 60px;
+      margin-bottom: 0;
+      flex-flow: column nowrap;
+      align-items: flex-end;
+    }
+  }
+
+  &__titre {
+    width: span(2 of 4);
+    min-width: 220px;
+    margin-right: gutter(4);
+    @media (min-width: $tablette) {
+      width: initial;
+      margin-right: 0;
+    }
+  }
+
+  &__conteneurAccroche {
+    background-color: #2E2E2E;
+    width: span(2 of 4) - gutter(4);
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    @media (min-width: $tablette) {
+      justify-content: inherit;
+      align-items: flex-end;
+      width: 90%;
+    }
+    &:after {
+      content : "";
+      background: url('../images/deco_triangleNoir.svg') no-repeat center left / cover;
+      position: absolute;
+      transform: rotate(90deg);
+      height: 60px;
+      width: 60px;
+      bottom: -34px;
+      z-index: -1;
+      @media (min-width: $tablette){
+        transform: none;
+        width: 60px;
+        height: 100%;
+        right: -51px;
+        bottom: initial;
+      }
+    }
+  }
+  &__accroche {
+    display: inline-block;
+    padding: 7px 22px 5px 15px;
+    @include fontSize(18px);
+    @media (min-width: $mobile) {
+      @include fontSize(24px);
+    }
+    @media (min-width: $tablette) {
+      text-align: right;
+      @include fontSize(40px);
+      padding: 7px 0 0 15px;
+      width: 100%;
+    }
+    @media (min-width: 1440px) {
+      width: 90%;
+      text-align: right;
+      padding: 7px 30px 0 0;
+    }
+  }
+
+  // *******************************************************************************************
+  // Réalisation
+  // *******************************************************************************************
+  &__realisation {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    //margin-right: -30px;
+    @media (min-width: $tablette) {
+      width: initial;
+      margin-left: 0;
+      margin-right: initial;
+    }
+    @media (min-width: $tablette) and (max-width: 1440px) {
+      margin-right: -40px;
+    }
+
+    &_picture {
+      @include borderNoir;
+      width: 335px;
+      height: 406px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      animation: arriveeImage 1s ease-in-out;
+      &.accueil__realisation_44, &.accueil__realisation_45, &.accueil__realisation_68, &.accueil__realisation_20, &.accueil__realisation_37 {
+        background-position: center;
+      }
+
+      @media (min-width:$mobile) {
+        width:594px;
+        height: 720px;
+      }
+
+      @media (min-width: 1400px) {
+        width: 42vw;
+      }
+
+    }
+    &_infos {
+      background-color: $blanc;
+      @include borderNoir;
+      position: absolute;
+      bottom: -80px;
+      right: -40px;
+      padding: 16px 80px 16px 42px;
+      box-shadow: -4px -4px 6px transparentize($presqueNoir, 0.75);
+      @media (min-width:$tablette) {
+        min-width: 380px;
+        bottom: -20px;
+      }
+      @media (min-width: $tablette) and (max-width: 1440px) {
+        padding-right: 120px;
+      }
+      p {
+        margin: 0;
+      }
+      &:before {
+        content : "";
+        background: url('../images/deco_triangleNoir_2.svg') no-repeat center left / cover;
+        position: absolute;
+        height: 60px;
+        width: 28px;
+        top: 0;
+        left: -4px;
+      }
+    }
+    &_btnAccueil {
+      position: absolute;
+      top : 16px;
+      z-index: 5;
+      left: 3%;
+      animation: pulseBtnUneAutre 6s cubic-bezier(.66,.18,.7,.44) infinite;
+      @media (min-width: $tablette) {
+        left: -100px;
+        top: 0;
+      }
+      @media (min-width: $bureau) {
+        top: 40px;
+      }
+      .bouton {
+        align-items: center;
+        justify-content: space-around;
+        @media (max-width: $tablette) {
+          max-width: 135px;
+          padding: 14px;
+        }
+        &__txt {
+          @include fontSize(16px);
+          @media (min-width: $tablette) {
+            @include fontSize(22px);
+          }
+        }
+      }
+      .bouton__primaire:before {
+        @media (min-width: $tablette) {
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  // *******************************************************************************************
+  // Motif décoratif en arrière plan
+  // *******************************************************************************************
+  .deco__realisations {
+    transform: scale(1.3);
+    width: 100vw;
+    height: 100vh;
+    &_conteneur {
+      position: absolute;
+      overflow: hidden;
+      z-index: -1;
+      bottom: 0;
+      top: 0;
+      margin: auto;
+      max-width: 1000px;
+    }
+    #mask0 rect {
+      width: 100vw;
+      height: 100vh;
+    }
+    @media (min-width: $mobile) {
+      transform: scale(1.6);
+      &_conteneur {
+        padding-left: 35%;
+        padding-right: 100%;
+      }
+    }
+    @media (min-width: $tablette) {
+      //width: fit-content;
+      height: 100vh;
+    }
+    @media (min-width:$tablette) and (max-width: 1400px) {
+      left: 23vh;
+    }
+    @media (min-width: 1400px) {
+      transform: scale(1.3);
+      &_conteneur {
+        left: 170px;
+      }
+    }
+  }
+}
+
+@keyframes arriveeImage {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes pulseBtnUneAutre {
+  from {
+    transform: scale(1);
+  }
+  92% {
+    transform: scale(1);
+  }
+  94% {
+    transform: scale(1.05);
+  }
+  96% {
+    transform: scale(0.95);
+  }
+  98% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

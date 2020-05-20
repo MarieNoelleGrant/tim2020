@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Guide de styles | TIM 2020</title>
+    <link rel="stylesheet" href="css/guide.css">
+</head>
+<body class="gds gds__paletteCouleur--blanc">
+<div class="conteneur">
+    <h1 class="gds__titre">Guide de styles | TIM 2020</h1>
+    <h2 class="gds__sousTitre">Palette de couleurs</h2>
+    <ul class="gds__palette">
+        <li class="gds__paletteItem">
+            <div class="gds__paletteCouleur gds__paletteCouleur--blanc"></div>
+            <p class="gds__description"><code>$blanc</code> - #FFF</p>
+        </li>
+        <li class="gds__paletteItem">
+            <div class="gds__paletteCouleur gds__paletteCouleur--noir"></div>
+            <p class="gds__description"><code>$noir</code> - #000</p>
+        </li>
+        <li class="gds__paletteItem">
+            <div class="gds__paletteCouleur gds__paletteCouleur--presqueNoir"></div>
+            <p class="gds__description"><code>$presqueNoir</code> - #1E1E1E</p>
+        </li>
+    </ul>
+    <ul class="gds__palette">
+        <li class="gds_description">
+            Les couleurs d'accent seront coordonnées aux réalisations affichées, et prendront le code de couleur dans la base de données.
+            Pour les pages programme, stages et contact, certaines couleurs secondaires seront utilisées pour rendre l'interface plus conviviale.
+            Les voici :
+        </li>
+        <li class="gds__paletteItem">
+            <div class="gds__paletteCouleur gds__paletteCouleur--vertMenthe"></div>
+            <p class="gds__description"><code>$vertMenthe</code> - <code>#1DE9B6</code></p>
+        </li>
+        <li class="gds__paletteItem">
+            <div class="gds__paletteCouleur gds__paletteCouleur--jauneFlash"></div>
+            <p class="gds__description"><code>$jauneFlash</code> - <code>#FFEA00</code></p>
+        </li>
+        <li class="gds__paletteItem">
+            <div class="gds__paletteCouleur gds__paletteCouleur--mauveLilas"></div>
+            <p class="gds__description"><code>$mauveLilas</code> - <code>#647BFE</code></p>
+        </li>
+        <li class="gds__paletteItem">
+            <div class="gds__paletteCouleur gds__paletteCouleur--jauneOcre"></div>
+            <p class="gds__description"><code>$jauneOcre</code> - <code>#FEB13D</code></p>
+        </li>
+    </ul>
+    <h2 class="gds__sousTitre">Typographie</h2>
+    <div class="gds__item">
+        <p class="h1">Titre niveau 1 <span class="gds__description"><code>.h1</code></span></p>
+    </div>
+    <div class="gds__item">
+        <p class="h2">Titre niveau 2 <span class="gds__description"><code>.h2</code></span></p>
+    </div>
+    <div class="gds__item">
+        <h3>Titre niveau 3 <span class="gds__description"><code>.h3</code></span></h3>
+        <h3 class="h3 h3--deco">Titre niveau 3 "décoratif" <span class="gds__description"><code>.h3--deco</code></span></h3>
+    </div>
+    <div class="gds__item gds__bgNoir">
+        <p class="h1 h1--blanc gds__bgNoir">Titre niveau 1 <span class="gds__description"><code>.h1--blanc</code></span></p>
+        <p class="h2 h2--blanc gds__bgNoir">Titre niveau 2 <span class="gds__description"><code>.h2--blanc</code></span></p>
+        <h3 class="h3 h3--deco h3--decoBlanc gds__bgNoir">Titre niveau 3 "décoratif"<span class="gds__description"><code>.h3--decoBlanc</code></span></h3>
+    </div>
+
+
+    <h2 class="gds__sousTitre">Boutons</h2>
+    <p>Bouton primaire</p>
+    <div class="gds__flex gds__space">
+        <div class="conteneur__bouton">
+            <button type="button" class="bouton bouton__primaire bouton__form"><span class="bouton__txt">Envoyer</span></button>
+        </div>
+        <span class="gds__description"><code>button</code> sans icone</span>
+    </div>
+    <div class="gds__flex gds__space">
+        <div class="conteneur__bouton">
+            <a href="#" class="bouton bouton__primaire"><span class="bouton__txt">Voir ce projet en action</span><span class="bouton__icone icone icone__lienExterne"></span></a>
+        </div>
+        <span class="gds__description"><code>a</code> avec icone</span>
+    </div>
+
+    <p>Bouton secondaire</p>
+    <div class="gds__flex gds__space">
+        <div class="conteneur__bouton">
+            <button type="button" class="bouton bouton__secondaire bouton__form"><span class="bouton__icone icone icone__rafraichir"></span><span class="bouton__txt">Réinitialiser</span></button>
+        </div>
+        <span class="gds__description"><code>button</code> avec icone</span>
+    </div>
+
+    <p>Liens</p>
+    <div class="gds__flex gds__space">
+        <div class="conteneur__lien">
+            <a href="#" class="lien"><span class="lien__txt">En voir plus</span></a>
+        </div>
+        <span class="gds__description"><code>a</code> sans icone</span>
+    </div>
+
+</div>

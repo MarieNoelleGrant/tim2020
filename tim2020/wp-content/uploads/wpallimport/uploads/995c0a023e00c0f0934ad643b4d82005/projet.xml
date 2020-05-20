@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<id><![CDATA[1]]></id>
+		<titre><![CDATA[The Elders Scrolls - Le quiz]]></titre>
+		<technologies><![CDATA[TypeScript, HTML, JSON]]></technologies>
+		<description><![CDATA[PWA sur un jeux vidéo]]></description>
+		<url><![CDATA[https://quiz-du-prof.herokuapp.com/]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[2]]></session_realisation>
+		<diplome_id><![CDATA[24]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[2]]></id>
+		<titre><![CDATA[La quête de Pedro]]></titre>
+		<technologies><![CDATA[TypeScript, <abbr title="Cascading Style Sheets">CSS</abbr>, <abbr title="Hypertext Markup Language">HTML</abbr>]]></technologies>
+		<description><![CDATA[<p>Jeu en ligne s’adressant aux enfants d’âge primaire, où un protagoniste doit tirer un projectile sur un antagoniste pour faire des points et réussir le jeu. Aidez Pedro le coati à entrer la réserve de nourriture en tassant les furieux agoutis de son chemin !</p>]]></description>
+		<url><![CDATA[https://gabrielverret.com/public/projets/pedro/]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[1]]></session_realisation>
+		<diplome_id><![CDATA[11]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[3]]></id>
+		<titre><![CDATA[Orbite : Le quiz spatial]]></titre>
+		<technologies><![CDATA[TypeScript, <abbr title="Hypertext Preprocessor">PHP</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>]]></technologies>
+		<description><![CDATA[<p>Quiz sur l’exploration spatiale s’adressant à tout public, comportant trois questions et une rétroaction sur chacune d’entre elles.</p>]]></description>
+		<url><![CDATA[http://quiz-orbite.herokuapp.com/]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[1]]></session_realisation>
+		<diplome_id><![CDATA[11]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[4]]></id>
+		<titre><![CDATA[Librairie Traces]]></titre>
+		<technologies><![CDATA[<abbr title="Hypertext Preprocessor">PHP</ abbr >,  <abbr title="Asynchronous Javascript and XML">AJAX</abbr>]]></technologies>
+		<description><![CDATA[<p>Le projet Traces est une librairie en ligne utilisant une base de données massive et ayant une section transactionnelle. Il a été réalisé en équipe avec <a href= "#">Christine Daneau-Pelletier</a> et <a href= "#">Marie-Noëlle Grant</a> en cinquième session. Je m’occupais personnellement du catalogue des livres et du formulaire pour entrer les données de paiement et de livraison. Les données devaient par la suite être enregistrées dans la base de données.</p><p>J’ai adoré ce projet, car il touchait à beaucoup de volets de notre formation et était très massif en termes de travail. Il m’a sensibilisée à la réalité du milieu et était varié dans les tâches à accomplir. C’était également une bonne entrée en la matière pour le volet transactionnel du web, qui est un volet en expansion constante.</p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[5]]></session_realisation>
+		<diplome_id><![CDATA[3]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[5]]></id>
+		<titre><![CDATA[Fruité - jeu vidéo]]></titre>
+		<technologies><![CDATA[TypeScript, CreateJS, Adobe Animate, Adobe Illustrator]]></technologies>
+		<description><![CDATA[<p>Le projet du jeu vidéo a été réalisé à la quatrième session. Nous devions réaliser un jeu de tir à la troisième personne sur un thème de notre choix. Nous devions concevoir une histoire, créer les médias graphiques, les animer, programmer l’interaction en orienté-objet et intégrer le tout dans une page. C’était notre premier projet en mode orienté-objet.</p>
+<p>Mon jeu consiste en une petite fée, Firy, qui doit tirer sur de petits gâteaux dans le but de les transformer en fruits. Le fruit ainsi créé reste en place et est aléatoire entre trois images (fraise, melon ou ananas). Quand elle atteint 10 gâteaux touchés, elle passe au niveau 2. Elle doit également éviter les barres de chocolat. De plus, il fallait programmer d’autres éléments, comme les sons et le décor défilant. J’ai adoré faire ce projet, car le volet programmation était très complexe et je sentais que j’avais une liberté artistique.</p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[4]]></session_realisation>
+		<diplome_id><![CDATA[3]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[7]]></id>
+		<titre><![CDATA[Capitaine Énergie]]></titre>
+		<technologies><![CDATA[TypeScript, Animate, Audition, Illustrator]]></technologies>
+		<description><![CDATA[<p>Lors de la 2<sup>e</sup> année de la technique, nous avions le mandat de créer un jeu à l'aide de TypeScript en orienté objet. Capitaine Énergie est un super héros qui protège la Terre d'une invasion extraterrestre. Il peut tirer des boules d'énergie pour faire exploser les missiles, et doit éviter les mines.</p> ]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[4]]></session_realisation>
+		<diplome_id><![CDATA[9]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[9]]></id>
+		<titre><![CDATA[Librairie Traces]]></titre>
+		<technologies><![CDATA[Blade, <abbr title="Hypertext Preprocessor">PHP</abbr>,  <abbr title="TypeScript">TypeScript</abbr>, Blade, <abbr title="Cascading Style Sheet">CSS</abbr>, <abbr title="Asynchronous JavaScript and XML">AJAX</abbr>]]></technologies>
+		<description><![CDATA[<p>Le plus gros projet de 5<sup>e</sup> session consistait à faire une réaliser de commerce électronique pour la librairie Traces. Ce site est était réalisé avec Blade PHP, pour nous donner un bon départ pour utiliser Laravel. J'étais en équipe avec <a href="#">Olivier Papineau</a> et <a href="#">Zachary Nicol-Prévost</a> pour ce projet.</p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[5]]></session_realisation>
+		<diplome_id><![CDATA[9]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[10]]></id>
+		<titre><![CDATA[Projet Jeu – Beppo et les pirates de l’espace]]></titre>
+		<technologies><![CDATA[Animate, TypeScript, ActionScript]]></technologies>
+		<description><![CDATA[<p>Le projet avait pour bût de nous acclimater à la programmation orientée objet pour les projets a venir. Le mandat était de créer un jeu de type <span lang="en">shooter</span> dont le thème et le contexte était libres au développeur. Au cours de plusieurs semaines, nous avons lentement ajouter des fonctions jusqu’au jeu final ou chaque étudiant avait son propre jeu avec au moins une fonction extra qui n’était pas mandatée.</p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[1]]></session_realisation>
+		<diplome_id><![CDATA[18]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[11]]></id>
+		<titre><![CDATA[Tourmaline – Agence Web Fictive]]></titre>
+		<technologies><![CDATA[Wordpress, <abbr title="Hypertext Preprocessor">PHP</ abbr >]]></technologies>
+		<description><![CDATA[<p>Il s’agissait d’une introduction au <abbr title="système de gestion de contenu">SGC</abbr > Wordpress. Le mandat était de créer une agence web fictive en équipes de 4 et d’en développer le site web de présentation. Il s’agissait d’une bonne introduction aux <abbr title="système de gestion de contenu">SGC</abbr> ainsi qu’une bonne initiation au travail d’équipe en agence. De plus, laisser aller son imagination par rapport a l’identité de son agence à rendu le projet très personnalisable et amusant a produire.</p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[1]]></session_realisation>
+		<diplome_id><![CDATA[18]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[13]]></id>
+		<titre><![CDATA[Traces]]></titre>
+		<technologies><![CDATA[PHP, Javascript, Bootstrap, SASS.]]></technologies>
+		<description><![CDATA[<p>Le projet Traces fût réalisé en équipe lors de la 5ème session. Il s'agit d'une librairie en ligne 100% fonctionnelle avec toutes les étapes de la transaction, du catalogue jusqu'à la confirmation de la commande; tout y es!</p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[5]]></session_realisation>
+		<diplome_id><![CDATA[20]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[14]]></id>
+		<titre><![CDATA[Festival OFF de Québec]]></titre>
+		<technologies><![CDATA[Sketch, <abbr title="Hypertext Preprocessor">PHP</abbr>,  <abbr title="Syntactically Awesome Style Sheets">SASS</abbr> et jQuery]]></technologies>
+		<description><![CDATA[<p>Le Festival OFF de Québec est un festival indépendant de découvertes musicales situées en basse ville. Pour le projet, la demande était de faire un site avant-gardiste, mettant de l'avant l'audace, la nouveauté, la diversité ainsi que la qualité. Notre mandat était d'appliquer des méthodes de gestion Agile pour le suivi du projet et d'utiliser les bibliothèques Normalize, Susy et jQuery pour l'intégration. De plus, c'était une première expérience de programmation en <abbr title="Hypertext Preprocessor">PHP</abbr> pour le traitement et l'affichage de données.</p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[3]]></session_realisation>
+		<diplome_id><![CDATA[1]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[15]]></id>
+		<titre><![CDATA[Librairie Traces]]></titre>
+		<technologies><![CDATA[<abbr title="Modèle-Vue-Contrôleur">MVC</ abbr >, Git, <abbr title="Asynchronous Javascript and XML">AJAX</abbr> et TypeScript]]></technologies>
+		<description><![CDATA[<p><a href="#">Andréa Deshaies</a>, <a href="#">Simon-Gabriel Côté-Poulin</a> et moi-même avons eu le mandat de créer le site web de e-commerce d'une librairie en ligne. Pour ce projet, la demande était de faire un site transactionnel fonctionnel, de l'étape d'ajout au panier à l'étape de  confirmation. Le versionnage avec Git et l'utilisation de la structure <abbr title="Modèle-Vue-Contrôleur">MVC</abbr> nous ont permis d'être très efficaces lors du développement. De plus, l'ajout de fonctionnalités asynchrones à l'aide d'<abbr title="Asynchronous Javascript and XML">Ajax</abbr>, nous a permis d'ajouter une touche d'interactivité pour améliorer l'expérience utilisateur.</p>
+
+]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[5]]></session_realisation>
+		<diplome_id><![CDATA[1]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[16]]></id>
+		<titre><![CDATA[La Bataille de la Ferme Schrute]]></titre>
+		<technologies><![CDATA[Typescript, Adobe Illustrator.]]></technologies>
+		<description><![CDATA[<p>La Bataille de la Ferme Schrute est un jeu programmé en Typescript (createJS). Le visuel à été entièrement réalisé dans Illustrator, en vectoriel. Le but du jeu est de toucher 10 ennemis (les ours) afin de passer au niveau suivant, tout en évitant les obstacles. Le héro, qui provient de la série télé à succès <span lang="en">The Office</span>, peux se faire toucher jusqu'à trois fois avant que la partie soit finie.</p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[4]]></session_realisation>
+		<diplome_id><![CDATA[20]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[17]]></id>
+		<titre><![CDATA[Traces]]></titre>
+		<technologies><![CDATA[<abbr title="Hypertext Preprocessor">PHP</abbr>,
+<abbr title="Asynchronous Javascript and XML">AJAX</abbr>,
+TypeScript]]></technologies>
+		<description><![CDATA[<p>Traces est un éditeur et libraire de Québec. Le mandat était de produire un site vitrine permettant aux utilisateurs l’achat en ligne de livres à caractère historique. Le projet se faisait en équipe de trois composée de moi-même, <a href=”#”>Camille Dion-Bolduc</a> et <a href=”#”>Émie Pelletier</a>. J’étais en charge de la fiche du livre, du panier et j’ai participé au formulaire transactionnel pour la validation côté client.</p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[5]]></session_realisation>
+		<diplome_id><![CDATA[2]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[18]]></id>
+		<titre><![CDATA[L’esprit du Nord - Jeu]]></titre>
+		<technologies><![CDATA[Figma, TypeScript, createJS, Adobe Animate, Programmation orientée objet]]></technologies>
+		<description><![CDATA[<p>Dans le cadre d’un cours de réalisation, nous devions produire un jeu de tir à la troisième personne. J’ai donc choisi d’utiliser cette opportunité pour sensibiliser les gens face au réchauffement climatique. Ainsi, le joueur contrôle un ours polaire qui a pour mission de refroidir l’Arctique afin de sauver son habitat.</p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[4]]></session_realisation>
+		<diplome_id><![CDATA[2]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[19]]></id>
+		<titre><![CDATA[Projet Jeu en ligne : Cours Koi, cours!]]></titre>
+		<technologies><![CDATA[TypeScript, CreateJs, Adobe Animate, Adobe Illustrator]]></technologies>
+		<description><![CDATA[<p>Le but de ce projet était de réaliser un petit jeu en ligne du type « tir à la troisième personne », en prenant en charge toutes les étapes de la réalisation, du <span lang=”en”>game design</span> à la programmation orientée objet complète du jeu. Nous devions aussi faire la création de tous les éléments graphiques nécessaires, ainsi que l’animation de ces derniers. Dans le jeu, vous aidez Koi le poisson à échapper de la maison en frétillant de bocal en bocal, tout en évitant obstacles et ennemis!</p>]]></description>
+		<url><![CDATA[ https://vimeo.com/387075862]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[4]]></session_realisation>
+		<diplome_id><![CDATA[6]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[20]]></id>
+		<titre><![CDATA[Site web d’entreprise/wordpress : Magenta Babies]]></titre>
+		<technologies><![CDATA[Wordpress, <abbr title="Hypertext Preprocessor">PHP</abbr>, <abbr title="Hypertext Markup Language">HTML5</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>]]></technologies>
+		<description><![CDATA[<p>Nous devions ici concevoir en équipe le site dynamique d’une entreprise web fictive, en appliquant les concepts de la méthode Agile. Nous faisions aussi l’apprentissage de WordPress, ainsi que la création d’un thème personnalisé de zéro. En plus de m’occuper du développement <span lang="en">responsive</span> de la page d’accueil (programmation et intégration), j’ai aussi eu le mandat de la direction artistique du site, et donc de créer et uniformiser les différents éléments graphiques du design.</p><p>Réalisé conjointement avec mes coéquipiers Eliott Régnier (page des réalisations), Sara Bilodeau (page de l’équipe) et <a href=”#”>Martin Cavanagh</a> (page des services).</p>]]></description>
+		<url><![CDATA[ https://vimeo.com/341852580]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[4]]></session_realisation>
+		<diplome_id><![CDATA[6]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[21]]></id>
+		<titre><![CDATA[Application web : N’oublie pas le tofu]]></titre>
+		<technologies><![CDATA[<abbr title="Hypertext Preprocessor">PHP</abbr>, <abbr title="Hypertext Markup Language">HTML5</abbr>]]></technologies>
+		<description><![CDATA[<p>Pour ce projet en équipe, nous devions réaliser une application web permettant de gérer des listes d’items au choix de l’utilisateur. Nous devions donc programmer tout pour permettre l’ajout, la suppression, le changement d’état ainsi que la modification des listes et de leurs items. C’était notre deuxième expérience avec la manipulation de données venant d’une base de données.</p><p>Pour ma part, j’ai fait l’intégration, la programmation et les choix design pour la page montrant une liste, puis le menu et l’en-tête <span lang="en">responsive</span> présents sur toutes les pages. Les choix du design général ont été fait conjointement avec ma collègue <a href=”#”>Christine Daneau-Pelletier</a></p>]]></description>
+		<url><![CDATA[ https://vimeo.com/387080198]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[3]]></session_realisation>
+		<diplome_id><![CDATA[6]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[22]]></id>
+		<titre><![CDATA[Librairie en ligne : Traces]]></titre>
+		<technologies><![CDATA[<abbr title="Asynchronous Javascript and XML">Ajax</abbr>, <abbr title="Modèle-Vue-Contrôleur">MVC</abbr>]]></technologies>
+		<description><![CDATA[<p>Pour ce projet en équipe, nous devions réaliser le site complet d’une librairie en ligne, avec section d’e-commerce de base. Une structure <abbr title="Modèle-Vue-Contrôleur">MVC</abbr> était à la base de la programmation, et plusieurs petites insertions de <abbr title="Asynchronous Javascript and XML">Ajax</abbr> permettaient d’améliorer la rétroaction immédiate pour l’utilisateur. Pour ma part, j’étais responsable de la page d’un livre (page article), de tout ce qui avait trait à l’ajout d’un article au panier, ainsi que la page du panier lui-même. Mes co équipières <a href=”#”>Christine</a> et <a href=”#”>Marie-Pierre</a> ont couvert respectivement l’accueil/la direction visuelle/la connexion au site, et le catalogue de livres/la section transactionnelle du site.</p>]]></description>
+		<url><![CDATA[ https://vimeo.com/387080852]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[5]]></session_realisation>
+		<diplome_id><![CDATA[6]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[23]]></id>
+		<titre><![CDATA[Librairie Traces]]></titre>
+		<technologies><![CDATA[Git, 
+<abbr title="Hypertext Preprocessor">PHP</abbr>, 
+<abbr title="Modèle-Vue-Contrôleur">MVC</ abbr >]]></technologies>
+		<description><![CDATA[<p>Pour le projet Traces, le mandat était de bâtir un équipe le site d’une librairie spécialisée dans les ouvrages historiques. Étant donné de la nature du commerce, il était demandé de faire la conception et l’intégration d’un système de commerce en ligne ou eCommerce, afin que les clients puissent magasiner dans le confort de leur foyer. Beaucoup d’heures de travail ont été mis dans ce projet et toute l’équipe en est ressortie fière.</p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[5]]></session_realisation>
+		<diplome_id><![CDATA[22]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[24]]></id>
+		<titre><![CDATA[N’oublie pas le tofu!]]></titre>
+		<technologies><![CDATA[<abbr title="Asynchronous Javascript and XML">AJAX</abbr>,
+<abbr title="Hypertext Preprocessor">PHP</abbr>,
+Javascript]]></technologies>
+		<description><![CDATA[<p>N’oublie pas le tofu était un projet consistant à développer une application de listes de choses à ne pas oublier, comme le tofu dans certaines listes d’épicerie. Cette application a servi à consolider notre apprentissage de la base du langage PHP, et à pouvoir effectuer des opérations <abbr title="Create, Read, Update, Delete">CRUD</abbr> à l’aide d’une base de données.</p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[3]]></session_realisation>
+		<diplome_id><![CDATA[22]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[25]]></id>
+		<titre><![CDATA[N’oublie pas le tofu!]]></titre>
+		<technologies><![CDATA[<abbr title="Asynchronous Javascript and XML">AJAX</abbr>,
+<abbr title="Hypertext Preprocessor">PHP</abbr>,
+Javascript]]></technologies>
+		<description><![CDATA[<p>N’oublie pas le tofu était un projet consistant à développer une application de listes de choses à ne pas oublier, comme le tofu dans certaines listes d’épicerie. Cette application a servi à consolider notre apprentissage de la base du langage PHP, et à pouvoir effectuer des opérations <abbr title="Create, Read, Update, Delete">CRUD</abbr> à l’aide d’une base de données.</p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[3]]></session_realisation>
+		<diplome_id><![CDATA[22]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[26]]></id>
+		<titre><![CDATA[Startut]]></titre>
+		<technologies><![CDATA["<abbr title=« Hypertext Preprocessor »>PHP</abbr>, JavaScript, <abbr title ="Cascading Style Sheet">CSS</abbr>]]></technologies>
+		<description><![CDATA[<p>Dans le cadre de notre projet tutoré, <a href=«#»> Lise </a> et moi devions développer un site web de tutoriels pour les étudiants de deuxième année de DUT Métiers du Multimédia et de l’Internet de Champs-sur-marne. <br>
+Ces tutoriels ont été écrits par nous-mêmes, sont adaptés pour les débutants et sont issus de notre auto-formation sur les sujets mentionnés. <br>
+Nous avons commencé par étudier le marché afin de mieux comprendre les besoins de notre cible mais également afin de nous différencier de nos concurrents en ajoutant une plus value.
+Nous avons conçu le site à l'aide du logiciel Adobe XD et nous avons utilisé JavaScript, <abbr title ="Hypertext Markup Language »>HTML</abbr>,
+<abbr title ="Cascading Style Sheet">CSS</abbr>  et <abbr title="Hypertext Preprocessor">PHP</abbr> pour développer ce site.
+</p>]]></description>
+		<url><![CDATA[jennifernukafu.fr/startut]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[4]]></session_realisation>
+		<diplome_id><![CDATA[21]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[28]]></id>
+		<titre><![CDATA[BodyShop]]></titre>
+		<technologies><![CDATA[Adobe Illustrator, Adobe Muse.]]></technologies>
+		<description><![CDATA[<p>Un projet visant à faire une voiture en <abbr title=”Scalable Vector Graphics”>SVG</abbr> et de mettre des marques semblants à un tatouage. Tout cela afin de développer ses capacités sur les technologies utilisées. Ensuite, fallait utiliser ces images de voiture sur un site fictif de service pour les voitures. Tout cela en créant un logo circulaire pour la marque du service.</p>]]></description>
+		<url><![CDATA[https://timblogues2017martincavanagh.wordpress.com/2017/09/20/bodyshop/]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[1]]></session_realisation>
+		<diplome_id><![CDATA[13]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[29]]></id>
+		<titre><![CDATA[Photomontage image impossible]]></titre>
+		<technologies><![CDATA[Adobe Illustrator, Adobe Muse, Adobe Photoshop]]></technologies>
+		<description><![CDATA[<p>Un projet de réaliser des images modifiées à donner illusion de la réalité. Tout cela afin d’améliorer ses capacités sur les logiciels de photomontage.</p>]]></description>
+		<url><![CDATA[https://timblogues2017martincavanagh.wordpress.com/2017/11/01/photomontage-image-impossible/]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[1]]></session_realisation>
+		<diplome_id><![CDATA[13]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[30]]></id>
+		<titre><![CDATA[Livreur de foy]]></titre>
+		<technologies><![CDATA[Sketch, Axure, la suite Adobe.]]></technologies>
+		<description><![CDATA[<p>Travail d’un faux projet sur une application pour commander les plats et les livraisons de la cafétéria scolaire, le Coopsco. Cela pour apprendre à faire des tests d’utilisateur et à faire des observations sur le terrain des futurs clients. Une simulation d’un projet d’un client en respectant l’accessibilité.</p>]]></description>
+		<url><![CDATA[https://timblogues2017martincavanagh.wordpress.com/2018/12/07/livreur-de-foy/]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[1]]></session_realisation>
+		<diplome_id><![CDATA[13]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[31]]></id>
+		<titre><![CDATA[Vidéo promotionnelle Technique d’intégration multimédia]]></titre>
+		<technologies><![CDATA[Adobe After Effect, Adobe Audition, Adobe Premiere Pro]]></technologies>
+		<description><![CDATA[<p>Un travail de montage vidéo sur le thème de mettre en valeur la technique d’intégration multimédia. Prendre des photos sur la technique et de les utilisés en avantage avec l’accord les membres de la technique.</p>]]></description>
+		<url><![CDATA[https://vimeo.com/337030552]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[4]]></session_realisation>
+		<diplome_id><![CDATA[13]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[32]]></id>
+		<titre><![CDATA[Astine Potine]]></titre>
+		<technologies><![CDATA[Adobe After Effect, Adobe Audition, Adobe Illustrator, Adobe Premiere Pro]]></technologies>
+		<description><![CDATA[<p>Projet d’animation d’un logo de notre choix. Celui choisi est un projet donné et à l’accord avec <a href="https://ca.linkedin.com/in/luc-duchesne-99559354"><strong>Luc Duchesne</strong></a>, connu sous le nom de <strong>Luduc</strong> dans son ancien projet <a href="https://astinepotine.baladoquebec.ca/"><strong>Astine Potine</strong></a>. 
+Un honneur de faire un travail pour un professionnel sur la création de web et pour une personnalité gentille.</p>]]></description>
+		<url><![CDATA[https://vimeo.com/325465372]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[4]]></session_realisation>
+		<diplome_id><![CDATA[13]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[33]]></id>
+		<titre><![CDATA[Le retard]]></titre>
+		<technologies><![CDATA[Adobe Premiere Pro, Adobe Audition, Adobe After Effect, Caméra]]></technologies>
+		<description><![CDATA[<p>Faire une vidéo d’une histoire courte sans parole, mais qu’avec la musique et les prise de vue pour partager les émotions. Bon entrainement sur la complexité des subtilités. L’histoire est décider à chacun, le miens est juste un étudiant qui se met en retard, mais le cours était annulé.</p>]]></description>
+		<url><![CDATA[https://vimeo.com/305076167]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[3]]></session_realisation>
+		<diplome_id><![CDATA[13]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[35]]></id>
+		<titre><![CDATA[Son]]></titre>
+		<technologies><![CDATA[Adobe Audition, Adobe Premiere Pro]]></technologies>
+		<description><![CDATA[<p>Avec une courte vidéo d’une personne qui marche dans la forêt à la première vue, le control des sons et de l’ambiance est le défi.</p>]]></description>
+		<url><![CDATA[https://vimeo.com/291794702]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[3]]></session_realisation>
+		<diplome_id><![CDATA[13]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[37]]></id>
+		<titre><![CDATA[Mission Gerkot aw]]></titre>
+		<technologies><![CDATA[TypeScrips, Adobe Animate, JQuery]]></technologies>
+		<description><![CDATA[<p>Un projet de faire un jeu vidéo afin d’apprendre à utiliser de la programmation orienté objet. Un jeu de tire à la troisième personne de côté avec un protagonisme, avec des antagonismes, avec des obstacles, avec un décor et avec un projectile.</p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[4]]></session_realisation>
+		<diplome_id><![CDATA[13]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[38]]></id>
+		<titre><![CDATA[Quiz]]></titre>
+		<technologies><![CDATA[<abbr title=" Syntactically Awesome Stylesheets "> sass</abbr>, heroku, <abbr title="Hypertext Preprocessor">PHP</abbr>,]]></technologies>
+		<description><![CDATA[<p>Travail d’un quiz sur tout sujet pour utiliser les animations à partir de <abbr title=" Cascading Style Sheets"> css</abbr> et de la complexité d’avoir un résultat en ligne ou hors ligne. Dépendant de la connection et des codes activé d’une application et de le mettre sur un serveur.</p>]]></description>
+		<url><![CDATA[https://quiz-connaissance-draconique.herokuapp.com/]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[5]]></session_realisation>
+		<diplome_id><![CDATA[13]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[39]]></id>
+		<titre><![CDATA[Agence Wordpress]]></titre>
+		<technologies><![CDATA[Wordpress, <abbr title="Hypertext Preprocessor">PHP</abbr>]]></technologies>
+		<description><![CDATA[<p>Pour un apprentissage de Wordpress, on a dû faire un projet de réaliser une fausse agence sur ce format en équipe.</p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[4]]></session_realisation>
+		<diplome_id><![CDATA[13]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[40]]></id>
+		<titre><![CDATA[Trace]]></titre>
+		<technologies><![CDATA[<abbr title=" Syntactically Awesome Stylesheets ">sass</abbr>, <abbr title="Hypertext Preprocessor">PHP</abbr>, courriel]]></technologies>
+		<description><![CDATA[<p>Il est nécessaire d’apprendre le système d’achat en ligne. Le projet Trace a été un faux site d’achat de livre avec son panier, le système de payement et son envoie de courriel.</p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[5]]></session_realisation>
+		<diplome_id><![CDATA[13]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[41]]></id>
+		<titre><![CDATA[Librairie Traces]]></titre>
+		<technologies><![CDATA[<abbr title="Hypertext Preprocessor">PHP</abbr>,
+<abbr title="Asynchronous Javascript and XML">Ajax</abbr>
+
+]]></technologies>
+		<description><![CDATA[<p>Lors de la 5e session, nous avons réalisé en équipe ce projet d’envergure. Ce projet consistait à réaliser en équipe <strong>un site web transactionnel</strong> pour la librairie Traces. Mon mandat, axé beaucoup sur <strong>l’intégration</strong>, consistait à réaliser, entre autres, le <span lang="en">header</span>, le <span lang="en">footer</span>, la fiche d’un livre, le panier et l'intégration de la section transactionnelle.</p>
+<br/>
+<p> Projet réalisé avec : <a href=’#’>Alexandre Blanchet</a> et <a href=’#’>Andréa Deshaies</a></p>
+]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[5]]></session_realisation>
+		<diplome_id><![CDATA[14]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[43]]></id>
+		<titre><![CDATA[Agence Web - Momentum]]></titre>
+		<technologies><![CDATA[WordPress, PHP, JavaScript, HTML, CSS]]></technologies>
+		<description><![CDATA[Dans le cadre du cours de réalisation de produits numériques interactifs, nous avons créé le site de l’agence web fictive Momentum en collaboration avec Alexandrine Sévigny et Gabriel Verret. Le projet consistait à créer le site web d’une agence fictive en utilisant le CMS WordPress. Le projet Momentum a été une précieuse expérience d’apprentissage dans l’utilisation de WordPress, la manipulation d’image et de parallaxe avec JavaScript et l’utilisation de formes organiques dans le design.]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[4]]></session_realisation>
+		<diplome_id><![CDATA[19]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[44]]></id>
+		<titre><![CDATA[Agence Web]]></titre>
+		<technologies><![CDATA[Figma,<abbr title="Hypertext Preprocessor">PHP</abbr>, TypeScript, <abbr title="Hypertext Markup Language">HTML</ abbr >, <abbr title="Cascading Style Sheets">CSS</ abbr >]]></technologies>
+		<description><![CDATA[<p>Ce projet consistait à créer une agence web fictive, son image de marque, sa signature visuelle ainsi qu’un site web officiel sur WordPress. Mon travail dans l’équipe était de créer la direction visuelle et conseiller mes coéquipiers afin de garder une cohésion dans nos designs respectifs.</p>
+<p>Ce projet était notre introduction à WordPress, il nous a permis de comprendre les bases d’un projet utilisant un SGC en plus de nous aider à parfaire nos connaissances en intégration et en CSS.</p>
+]]></description>
+		<url><![CDATA[https://www.figma.com/file/lv1kuHlzlyR2ZZalC6aFbI/1DEUX3-Officiel]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[4]]></session_realisation>
+		<diplome_id><![CDATA[16]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[45]]></id>
+		<titre><![CDATA[Quiz - Autour du thé]]></titre>
+		<technologies><![CDATA[<p><abbr title="Hypertext Markup Language">HTML</abbr >,
+<abbr title="Syntactically Awesome Style Sheets">Sass</abbr>,
+TypeScript, <abbr title="Hypertext Preprocessor">PHP</abbr></p>
+]]></technologies>
+		<description><![CDATA[<p>Ce projet consiste à réaliser un questionnaire tout en priorisant une interactivité riche et animée. Les micro-animations réalisées en <abbr title="Cascading Style Sheets">CSS</abbr> permettent d’accentuer l’expérience utilisateur et de rendre dynamique l’application. Le projet est également conçu selon les normes d’une  <span lang="en">Progressive Web App</span> afin de consulter le questionnaire sans réseau.</p>]]></description>
+		<url><![CDATA[https://quiz-autour-du-the.herokuapp.com/]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[5]]></session_realisation>
+		<diplome_id><![CDATA[23]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[46]]></id>
+		<titre><![CDATA[Le Dillinger Quiz]]></titre>
+		<technologies><![CDATA[<abbr title="Hypertext Preprocessor">PHP</abbr>,
+<abbr title="Progressive Web App">PWA</abbr>
+]]></technologies>
+		<description><![CDATA[<p>Ce projet consistait à réaliser un quiz sur le sujet de notre choix tout en respectant l’utilisation des copyrights pour les images. Ce projet mettait l'emphase sur l’utilisation <strong>d’animation <abbr title="Cascading Style Sheets">CSS</abbr></strong> pour rendre le quiz <strong>interactif et plaisant pour l’utilisateur</strong>. Le but était aussi de développer ce quiz en format tablette. </p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[5]]></session_realisation>
+		<diplome_id><![CDATA[14]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[47]]></id>
+		<titre><![CDATA[Jeu en ligne]]></titre>
+		<technologies><![CDATA[<p>TypeScript, CreateJs, Adobe Animate</p>]]></technologies>
+		<description><![CDATA[<p>À partir d’un synopsis imaginé par chacun, le projet consiste à concevoir un jeu de tir à la 3e personne. La conception des éléments est réalisée avec Illustrator et leur animation avec Adobe Animate. À l’aide de la programmation, les personnages et les décors sont activés afin de reproduire le synopsis. Mon personnage, SuperNet, doit nettoyer les pièces d’un ordinateur en aspirant les virus et en évitant les antivirus. </p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[4]]></session_realisation>
+		<diplome_id><![CDATA[23]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[48]]></id>
+		<titre><![CDATA[Festival OFF]]></titre>
+		<technologies><![CDATA[<abbr title="Hypertext Markup Language">HTML</ abbr >, <abbr title="Cascading Style Sheets">CSS</ abbr >, <abbr title="Structured Query Language">SQL</ abbr >, <abbr title="Hypertext Preprocessor">PHP</abbr>.]]></technologies>
+		<description><![CDATA[<p>Projet de la première session, de la deuxième année. Pour celui-ci nous devions programmer un site d’un festival d’artiste émergeants, moins connus que ceux qui sont aux festivals plus populaires - <strong>le festival OFF</strong>. Nous avons réalisé l’intégration complète de la section d’un artiste en particulier.</p>
+
+<p>Côté conception, mon idée était de représenter visuellement l’exclusion des artistes qui sortent des normes avec des formes superposées. Ces formes se chevauchent et sortent de ma grille de conception.</p>
+
+<p>Il s’agissait du premier projet que nous réalisions avec du <abbr title="Structured Query Language">SQL</ abbr > et <abbr title="Hypertext Preprocessor">PHP</abbr>.</p>]]></description>
+		<url><![CDATA[https://www.behance.net/gallery/75139437/TIM-Session-3-%28Festival-OFF%29]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[3]]></session_realisation>
+		<diplome_id><![CDATA[17]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[49]]></id>
+		<titre><![CDATA[Librairie Traces]]></titre>
+		<technologies><![CDATA[<abbr title="Asynchronous Javascript and XML">Ajax</abbr, >, <abbr title="Hypertext Preprocessor">PHP</abbr> orienté objet, <abbr title="Modèle-Vue-Contrôleur">MVC</ abbr >, JavaScript, JQuery.]]></technologies>
+		<description><![CDATA[<p>Projet d’équipe réalisé avec <a href=”# ”>Alexandrine C. Sevigny</a> et <a href=”# ”>Emie Pelletier</a>. J’étais en charge du mandat A qui s’occupait de la direction artistique, la page d’accueil, page de connexion et de confirmation de courriel après l’achat.</p>
+
+<p>Ce fut le projet le plus complexe de la technique, puisque nous avions beaucoup de nouveaux apprentissages comme la connexion d'un utilisateur, la gestion d'une très grande base de données et un peu de programmation <abbr title="Asynchronous Javascript and XML">Ajax</abbr> pour certaines tâches précises.</p>]]></description>
+		<url><![CDATA[https://www.behance.net/gallery/91287125/TIM-Session-5-Librairie-Traces?]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[5]]></session_realisation>
+		<diplome_id><![CDATA[17]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[50]]></id>
+		<titre><![CDATA[Traces]]></titre>
+		<technologies><![CDATA[f]]></technologies>
+		<description><![CDATA[f]]></description>
+		<url><![CDATA[f]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[1]]></session_realisation>
+		<diplome_id><![CDATA[24]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[51]]></id>
+		<titre><![CDATA[Traces]]></titre>
+		<technologies><![CDATA[f]]></technologies>
+		<description><![CDATA[f]]></description>
+		<url><![CDATA[f]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[5]]></session_realisation>
+		<diplome_id><![CDATA[24]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[52]]></id>
+		<titre><![CDATA[Jeu - Pur]]></titre>
+		<technologies><![CDATA[<abbr title="Cascading Style Sheets">CSS</ abbr >, TypeScript.]]></technologies>
+		<description><![CDATA[<p>Conception complète d’un jeu sur navigateur. Les éléments du jeu ont été réalisés avec Illustrator et Photoshop, puis animés sous Animate.</p>
+
+<p>Le but du jeu est simple; sensibiliser les jeunes à la pollution des océans. On incarne une raie manta qui se donne comme mission personnelle de nettoyer les eaux. Elle est accompagnée d'un petit poisson, qui représente l'une de ses vie.</p>
+
+<p>Le joueur doit tirer sur les déchets qui tombe dans l'océan, en plus d'éviter les anguilles qui nageront vers lui. Pour passer au niveau suivant, il doit tirer sur dix déchets. Si le joueur touche aux déchets, sa barre de toxicité augmente. Si le joueur perd sa dernière vie, la partie est terminée.</p>]]></description>
+		<url><![CDATA[https://www.behance.net/gallery/91287321/TIM-session-4-Pur-%28Jeu%29]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[4]]></session_realisation>
+		<diplome_id><![CDATA[17]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[53]]></id>
+		<titre><![CDATA[Traces]]></titre>
+		<technologies><![CDATA[f]]></technologies>
+		<description><![CDATA[f]]></description>
+		<url><![CDATA[f]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[5]]></session_realisation>
+		<diplome_id><![CDATA[24]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[54]]></id>
+		<titre><![CDATA[Quiz – À la recherche du bambou]]></titre>
+		<technologies><![CDATA[<abbr title="Hypertext Markup Language">HTML</abbr>, JavaScript, <abbr title="Hypertext Preprocessor">PHP</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>.]]></technologies>
+		<description><![CDATA[<p>Ce projet consistait à créer une application Web progressive sous forme de jeu-questionnaire. Le mandat était de concevoir et de réaliser des interfaces avec et sans JavaScript. De plus, ce jeu-questionnaire avait comme particularité d’offrir beaucoup d’interactivité. Pour ce faire, nous devions utiliser des animations <abbr title="Cascading Style Sheets">CSS</abbr>.</p><p>Ce projet était à réaliser individuellement.</p>]]></description>
+		<url><![CDATA[http://quiz-a-la-recherche-du-bambou.herokuapp.com/quiz.html]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[5]]></session_realisation>
+		<diplome_id><![CDATA[5]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[55]]></id>
+		<titre><![CDATA[WWI.]]></titre>
+		<technologies><![CDATA[<abbr title=« Hypertext Preprocessor »>PHP</abbr>, JavaScript, <abbr title ="Hypertext Markup Language">HTML</abbr>, <abbr title ="Cascading Style Sheet">CSS</abbr>]]></technologies>
+		<description><![CDATA[<p>Dans le cadre d’un projet de première année, nous devions développer un site présentant la formation DUT MMI ainsi que les étudiants de notre promotion. Notre cible était les futurs étudiants souhaitant intégrer la formation. Nous avons donc misé sur un design avec les Bitmoji personnalisé (avatars Snapchat) afin de présenter les étudiants.</p> <p>Durant ce projet, j’avais le rôle de cheffe de projet mais aussi d’intégratrice et de vidéaste. </p>]]></description>
+		<url><![CDATA[jennifernukafu.fr/wwi ]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[2]]></session_realisation>
+		<diplome_id><![CDATA[21]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[57]]></id>
+		<titre><![CDATA[Traces]]></titre>
+		<technologies><![CDATA[<abbr title="Hypertext Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>, <abbr title="Hypertext Preprocessor">PHP</abbr>, <abbr title="Asynchronous JavaScript and XML">AJAX</abbr>, <abbr title="Structured Query Language">SQL</abbr>, JavaScript, Blade]]></technologies>
+		<description><![CDATA[<p>Ce projet était à réaliser en équipe de trois : <a href="#">Élody Levasseur-Côté</a> (conceptrice visuelle), <a href="#">Gabriel Chouinard-Létourneau</a/> (programmeur) et <a href="#">Marie-Li Durand</a> (intégratrice).</p><p>Nous avions comme mandat de concevoir et réaliser un site transactionnel pour la librairie Traces. Nous avons employé l’approche <abbr title="Modèle-Vue-Contrôleur">MVC</abbr> comme structure du site. De plus, pour rendre le site plus dynamique, nous avons utilisé du <abbr title="Asynchronous JavaScript and XML">Ajax</abbr> afin de mettre à jour, par exemple, les informations du panier d’achats.</p><p>De mon côté, je devais concevoir et réaliser la fiche d’un livre et le panier d’achats. J’ai également intégré l’en-tête, le pied de page et la plupart des pages de la section transactionnelle.</p><p>Lors de ce projet, nous devions faire preuve de <strong>créativité</strong>, d’<strong>autonomie</strong> et d’<strong>esprit d’équipe</strong>.</p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[5]]></session_realisation>
+		<diplome_id><![CDATA[5]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[58]]></id>
+		<titre><![CDATA[Jeu en 2D - La forêt infinie]]></titre>
+		<technologies><![CDATA[<abbr title="Hypertext Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>, <abbr title="Cascading Style Sheets">TypeScript</abbr>, la suite Adobe CC (Illustrator et Animate).]]></technologies>
+		<description><![CDATA[<p>Ce projet visait à créer un jeu de tir à la troisième personne. Pour ce projet final de quatrième session, nous devions mettre à profit nos connaissances en conception, en programmation et en animation.</p><p>Plus précisément, le mandat était de concevoir principalement des interfaces vectorielles et d’utiliser la librairie de CreateJS pour l’animation et la programmation.</p><p>Pour le réaliser, nous devions nous servir de l’approche orientée objet qui permettait d’utiliser les notions de classes, d’héritage et d’encapsulation.</p><p>Le jeu devait retrouver un protagoniste, un obstacle et un antagoniste. Son but était de traverser la forêt infinie sans mourir et d’obtenir un certain nombre de points. Pour y arriver, l’utilisateur devait se déplacer et tirer des projectiles à l’aide des flèches du clavier afin de gagner des points. La particularité de mon jeu se caractérisait par un deuxième niveau qui permettait aux antagonistes de cracher des boules de feu.</p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[4]]></session_realisation>
+		<diplome_id><![CDATA[5]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[59]]></id>
+		<titre><![CDATA[Pixweb - Agence web fictive]]></titre>
+		<technologies><![CDATA[<abbr title="Hypertext Preprocessor">PHP</abbr > et WordPress]]></technologies>
+		<description><![CDATA[<p>Création d'un site d'une agence web fictive dans le but d'apprendre les fonctionnalités de WordPress</p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[4]]></session_realisation>
+		<diplome_id><![CDATA[12]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[60]]></id>
+		<titre><![CDATA[Projet Jeu - L'évasion pirate]]></titre>
+		<technologies><![CDATA[JavaScript, TypeScript, ActionScript.]]></technologies>
+		<description><![CDATA[<p>Projet consistant à créé un jeu entièrement en programmation orienté objet. </p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[4]]></session_realisation>
+		<diplome_id><![CDATA[12]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[62]]></id>
+		<titre><![CDATA[Festival OFF]]></titre>
+		<technologies><![CDATA[<abbr title="Hypertext Preprocessor">PHP</abbr>, <abbr title="Structured Query Language">SQL</ abbr >, Figma, <abbr title="Hypertext Markup Language">HTML</ abbr >, <abbr title="Cascading Style Sheets">CSS</ abbr >]]></technologies>
+		<description><![CDATA[<p>L’objectif du projet OFF était de concevoir individuellement un design pour un festival de musique émergente et ensuite réaliser un prototype fonctionnel du site.</p>
+<p>Le défi principal du projet était de gérer une base de données contenant tous les artistes et les informations nécessaires au site en MVC. Le projet nous a permis de bien comprendre le fonctionnement du PHP avant d’apprendre de nouvelles techniques de travail.</p>
+]]></description>
+		<url><![CDATA[https://www.figma.com/file/OL42Iv0kbmmlXBDtkwRNfp1x/OFF.]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[3]]></session_realisation>
+		<diplome_id><![CDATA[16]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[63]]></id>
+		<titre><![CDATA[Pagaie Québec]]></titre>
+		<technologies><![CDATA[Figma]]></technologies>
+		<description><![CDATA[<p>Pour le projet Pagaie Québec, il fallait principalement répondre au besoin de gestion du client. Son logo déjà établi, nous étions chargés de concevoir un site web ainsi que de prototyper une section de gestion d’inscription et de calendrier pour les activités de plein air organisées par le groupe</p>
+<p>Ce projet m’a permis d’approfondir mes capacités en conception d’application web en plus d’explorer les possibilités de prototypage offertes par Figma</p>
+]]></description>
+		<url><![CDATA[https://www.figma.com/file/JrKbLJ4gXjvtQLVfn4W7MM0t/Projet-3-PagaieQc?node-id=1%3A2]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[4]]></session_realisation>
+		<diplome_id><![CDATA[16]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[64]]></id>
+		<titre><![CDATA[Librairie Traces]]></titre>
+		<technologies><![CDATA[Figma,<abbr title="Hypertext Preprocessor">PHP</abbr>, TypeScript, <abbr title="Hypertext Markup Language">HTML</ abbr >, <abbr title="Cascading Style Sheets">CSS</ abbr >]]></technologies>
+		<description><![CDATA[<p> L’objectif était de concevoir, intégrer et programmer un site transactionnel pour une librairie à vocation historique. Mon travail était de créer la direction visuelle pour le projet en plus de participer à son intégration et à sa programmation. </p>
+<p>Ce projet nous a permis de comprendre en profondeur le fonctionnement d’un site de commerce en ligne et de réviser des notions de design axé sur l’expérience utilisateur ainsi que la conception de formulaire efficaces.</p>
+]]></description>
+		<url><![CDATA[https://www.figma.com/file/0CBucqemcOVNPhNfeQYmny/TracesOfficiel?node-id=0%3A1]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[5]]></session_realisation>
+		<diplome_id><![CDATA[16]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[65]]></id>
+		<titre><![CDATA[Librairie - Traces]]></titre>
+		<technologies><![CDATA[<p><abbr title="Hypertext Markup Language">HTML</abbr>, <abbr title="Syntactically Awesome Style Sheets">Sass</abbr>, TypeScript, <abbr title="Hypertext Preprocessor">PHP</abbr>, <abbr title="Modèle-Vue-Contrôleur">MVC</abbr>, <abbr title="Structured Query Language">SQL</abbr></p>]]></technologies>
+		<description><![CDATA[<p>La librairie Traces est une maison d’édition raffinée qui s’adresse à tous les amateurs d’histoire. Afin de faciliter les achats et augmenter la clientèle en ligne, nous avons conçu en équipe de trois un site de commerce en ligne. Les clients sont ainsi en mesure de consulter le catalogue des livres et d’effectuer une transaction de manière sécuritaire tout en ayant un compte avec leurs informations personnelles.  La direction artistique est réalisée par <a href="#"> Camille Dion-Bolduc</a> qui a comme mandat la page d’accueil. La fiche d’un livre est intégrée par <a href="#">Alexandrine Sévigny </a> et le catalogue est conçu par moi-même.</p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[5]]></session_realisation>
+		<diplome_id><![CDATA[23]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[66]]></id>
+		<titre><![CDATA[Vidéo promotionnelle de la TIM]]></titre>
+		<technologies><![CDATA[Adobe After Effects, Adobe Audition et Adobe Premiere]]></technologies>
+		<description><![CDATA[<p>Dans le cadre du cours de montage plurimédia en session 4, nous devions produire une courte publicité visant à présenter la technique. J'ai eu eu beaucoup de plaisir à explorer le logiciel d'Adobe After Effects pour créer des effets et transitions inusitées.<p>]]></description>
+		<url><![CDATA[https://vimeo.com/337149074]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[4]]></session_realisation>
+		<diplome_id><![CDATA[2]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[67]]></id>
+		<titre><![CDATA[Librairie Traces | Boutique e-commerce]]></titre>
+		<technologies><![CDATA[<abbr title=”Cascading Style Sheets”>CSS</abbr>, TypeScript, <abbr title="Asynchronous Javascript and XML">AJAX</abbr> et <abbr title="Hypertext Preprocessor">PHP</abbr>.]]></technologies>
+		<description><![CDATA[<p>La librairie Traces est une application de commerce électronique <span lang=”en">responsive</span> spécialisée dans les livres dédiés à l’histoire. Elle est principalement dédiée aux gens passionnés de sciences humaines et d’histoire, aux professeurs ainsi qu’aux étudiants de tous niveaux.</p>
+<p>Les sections catalogue et transactionnelle ont été développé afin d’approfondir les connaissances apprises durant les deux premières années de la technique.</p>
+<p>Ce projet a été réalisé à l’aide de deux collègues, soit <a href=”#”>Marie-Li Durand</a> et <a href=”#”>Gabriel Chouinard-Létourneau</a>.</p>
+]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[5]]></session_realisation>
+		<diplome_id><![CDATA[8]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[68]]></id>
+		<titre><![CDATA[Quiz Mont Everest]]></titre>
+		<technologies><![CDATA[<abbr title="Cascading Style Sheets">CSS</abbr>, TypeScript, <abbr title="Hypertext Preprocessor">PHP</abbr>.]]></technologies>
+		<description><![CDATA[<p>Le jeu-questionnaire est une <span lang="en">Progressive Web App</span> comportant des animations ainsi que plusieurs transitions <abbr title="Cascading Style Sheets">CSS</abbr>. Il a été créé et rédigé à partir d’un thème choisi personnellement. </p>
+<p>L’emphase était particulièrement mise sur l’interactivité afin que l’utilisateur puisse répondre au jeu-questionnaire avec satisfaction.</p>]]></description>
+		<url><![CDATA[https://quiz-mont-everest.herokuapp.com/]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[5]]></session_realisation>
+		<diplome_id><![CDATA[8]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[70]]></id>
+		<titre><![CDATA[Roadtrip]]></titre>
+		<technologies><![CDATA[Sketch, Adobe Photoshop, Figma]]></technologies>
+		<description><![CDATA[<p>Pour Roadtrip, nous devions faire l'analyse d'un besoin client et la transposer en maquette. Il s'agissait de notre premier projet où nous devions respecter les demandes d'un vrai client. Les maquettes ont été produites selon différentes tailles d'écran. Le défi de ce projet était l'affichage des contenus. Nous devions afficher une grande quantité d'informations de façon succincte, claire et précise.</p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[2]]></session_realisation>
+		<diplome_id><![CDATA[2]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[71]]></id>
+		<titre><![CDATA[Destination Roadtrip]]></titre>
+		<technologies><![CDATA[Photoshop et Sketch.]]></technologies>
+		<description><![CDATA[Le projet Destination Roadtrip est une réalisation d’interface selon une clientèle cible choisie parmi trois proposées. Il présente globalement les activités d’un <span lang="en">roadtrip</span> dans l’Ouest canadien. Ce projet demandait également un traitement vigoureux des images et une organisation du contenu soignée.]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[2]]></session_realisation>
+		<diplome_id><![CDATA[8]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[72]]></id>
+		<titre><![CDATA[Pagaie Québec]]></titre>
+		<technologies><![CDATA[Figma, Axure]]></technologies>
+		<description><![CDATA[<p>Le projet Pagaie Québec visait à réfléchir au contenu d'une page web et à concevoir une maquette qui présenterait les activités nautiques de Pagaie Québec. L'importance était posée sur la hiérarchie des contenus, sur la présentation visuelle et sur la clarté de l'interface. J'ai bien aimé ce projet car la réflexion rattachée était intéressante et le résultat m'a plu visuellement.</p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[4]]></session_realisation>
+		<diplome_id><![CDATA[3]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[74]]></id>
+		<titre><![CDATA[Traces]]></titre>
+		<technologies><![CDATA[<abbr title="HyperText Markup Language">HTML</abbr> - <abbr title="Syntactically Awesome Stylesheets">Sass</abbr> - TypeScript - <abbr title="Programmation Orienté Objet">POO</abbr> - <abbr title="Modèle Vue Controleur">MVC</abbr> - <abbr title="Personal Home Page">Php</abbr> - Git - Gulp - Figma]]></technologies>
+		<description><![CDATA[<p>La Librairie Traces a été un défi de programmation, car nous devions produire un site web orienté objet avec une structure MVC (Modèle, Vue, Controlleur). Ce projet a été fait en équipe avec <a href="">Marie-Noëlle Grant</a> (fiche du livre, fil d'Ariane, panier et validation côté client) et <a href="">Marie-Pierre Cardinal-Labrie</a> (recherche avec AJAX et catalogue). Dans ce projet, j'ai fait le design, la programmation et l'intégration de l'accueil et la de section de la connexion / création de compte, l'envoi de courriels automatisés après une transaction et enfin styler l'impression de la facture.</p><p>J'ai aussi utilisé AJAX pour charger de façon asynchrone les données dynamiques des coups de coeur et de la vérification de la disponibilité du courriel. La partie amusante a évidemment été de faire les styles SASS (CSS3) particulièrement de travailler en grid la section des coups de coeur.</p><p>Pour une meilleure expérience, la charge de travail (quantité d'information) a été réduite en mobile.</p>]]></description>
+		<url><![CDATA[https://www.behance.net/gallery/91340629/Libraire-Traces]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[5]]></session_realisation>
+		<diplome_id><![CDATA[15]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[75]]></id>
+		<titre><![CDATA[Vidéo promotionnelle]]></titre>
+		<technologies><![CDATA[Adobe After Effects - Adobe Illustrator - Adobe Photoshop - Adobe Audition]]></technologies>
+		<description><![CDATA[<p>Vidéo promotionnelle pour la TIM - Techniques d’intégration multimédia. Réalisé en 4e session dans le cadre du cours de montage médiatique : plurimédia au Cégep de Sainte-Foy. Ce projet a surtout été centré sur le montage vidéo / audio, le motion design et le traitement d'image.</p><p>Le dynamisme est amené par le rythme rapide des <i>cuts</i> et des grands contrastes de couleurs. La musique est simple mais tout aussi dynamique et l’image est synchronisée parfaitement sur les temps forts et les changements de section, ce qui crée une introduction, un développement et une conclusion tant auditive que visuelle. </p>]]></description>
+		<url><![CDATA[https://www.behance.net/gallery/91341197/Vido-promotionnelle-de-la-TIM]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[4]]></session_realisation>
+		<diplome_id><![CDATA[15]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[76]]></id>
+		<titre><![CDATA[Jeu - Quête musicale]]></titre>
+		<technologies><![CDATA[TypeScript <abbr title="Programmation Orienté Objet">POO</abbr> - Adobe Illustrator - Adobe Audition - Adobe Animate]]></technologies>
+		<description><![CDATA[<p>Pour ce projet, nous avions à concevoir un univers pour construire un jeu en ligne. J'ai illustré tous les éléments à la plume vectorielle dans Adobe Illustrator. L'animation a été fait avec Adobe Animate et la programmation TypeScript en Orienté Objet. </p><p>Synopsis : la musique a été volée, note par note, par les esprits malins de la forêt. Sans la musique, les arbres s’assèchent et meurent peu à peu. Fitch, une créature de la forêt, cherche à retrouver les notes pour restituer la musique à la forêt. Pour cela, il devra trouver et remettre les notes dans le bon ordre pour construire la mélodie demandée. </p><p>Pour cela, il a fallu que je programme la mélodie à compléter en plus de chaque son de la portée pour qu'elles correspondent selon une hauteur en pixel prédéfini. </p><p>Pour le moment il n'y a que deux niveau, mais il est possible de faire autant que le temps me le permet. À chaque niveau sa mélodie et la difficulté augmente (obstacles plus rapides et nombreux. </p>]]></description>
+		<url><![CDATA[https://www.behance.net/gallery/91338051/Jeu-en-ligne]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[4]]></session_realisation>
+		<diplome_id><![CDATA[15]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[77]]></id>
+		<titre><![CDATA[E-club un site pour l'Esport]]></titre>
+		<technologies><![CDATA[<abbr title ="Hypertext Markup Language">HTML</abbr>, <abbr title ="Cascading Style Sheet">CSS</abbr> JavaScript et Bootstrap]]></technologies>
+		<description><![CDATA[<p>Dans le cadre d'un projet en développement Web, nous devions réaliser seuls en l'espace de deux mois et demi un site en <span lang="en">responsive</span> design, sur un thème que nous avions choisi.</p> 
+<p>Le site devait également prendre en compte toutes les règles spécifiques au <strong><abbr title ="Search Engine Optimization">SEO</abbr></strong>.</p>
+<p>Afin de réaliser ce projet je me suis d'abord penché sur la conception des maquettes pour déterminer où chaque élément qui m'était demandé de faire apparaître serait.</p>
+<p>Dans un second temps, j'ai commencé à réaliser la structure de mon site, ayant un grand nombre de pages, je devais alors créer le contenu qui allait figurer sur toutes mes pages comme le <span lang="en">footer</span> et le  <span lang="en">header</span>.</p>
+<p>Dans un troisième temps, intégrer le contenu restant en respectant mes maquettes et enfin régler les derniers bugs présents sur le site que se soit pour la version mobile ou web</p>]]></description>
+		<url><![CDATA[https://e-club-issam-laazayri.000webhostapp.com/index.html]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[4]]></session_realisation>
+		<diplome_id><![CDATA[26]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[78]]></id>
+		<titre><![CDATA[Jeu vidéo]]></titre>
+		<technologies><![CDATA[<abbr title ="ActionScript 3">AS3</abbr>, Animate]]></technologies>
+		<description><![CDATA[<p>C'est un jeu réalisé en <strong><abbr title ="ActionScript 3">AS3</abbr></strong>, que j'ai réalisé seul durant mon temps libre.</p>
+<p>Je souhaitais découvrir un nouveau langage et quoi de mieux qu'en découvrir un en faisant un jeu. J'ai donc utilisé l'éditeur de texte Flashdevelop qui permet de gérer un programme fait en <strong><abbr title ="ActionScript 3">AS3</abbr></strong>. Le design des décors et des éléments ont été fait par une connaissance.</p>
+<p> Pour le développer, j'ai dû planifier plusieurs étapes. Dans un premier temps les règles du jeu (comment on gagne). Puis par la suite j'ai commencé à le coder. Les réglages et les décors se trouvaient sur Animate.</p>
+<p>Le but du jeu est assez simple détruire tous les vaisseaux et accumuler des points.</p>
+<p>Ce fut pour moi un projet intéressant, car il m'a permis de mieux gérer un projet, mais aussi d'approfondir mes connaissances en <abbr title ="ActionScript 3">AS3</abbr></p> ]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[5]]></session_realisation>
+		<diplome_id><![CDATA[26]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[79]]></id>
+		<titre><![CDATA[Startut]]></titre>
+		<technologies><![CDATA[<abbr title="Hypertext Markup Language">HTML</ abbr >, 
+<abbr title="Cascading Style Sheets">CSS</ abbr >,
+Javascript, <abbr title="Hypertext Preprocessor">PHP</ abbr >]]></technologies>
+		<description><![CDATA[<p>Startut est mon second projet tutoré réalisé dans le cadre de ma formation. C’est une plateforme proposant des tutoriels destinés aux étudiants de ma promotion. Les tutoriels sont répartis en fonction de trois catégories : le développement, la communication et l’audiovisuel. Au sein de ce projet réalisé en collaboration avec <a href= "#">Jennifer Nukafu</a>, j’ai effectué le <span lang="en">webdesign</span> du site, la majeure partie du développement front et ai aidé au développement <span lang="en">back-end.</span></p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[5]]></session_realisation>
+		<diplome_id><![CDATA[25]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[80]]></id>
+		<titre><![CDATA[C'Vous]]></titre>
+		<technologies><![CDATA[<abbr title="Hypertext Markup Language">HTML</ abbr >, 
+<abbr title="Cascading Style Sheets">CSS</ abbr >,
+Javascript, <abbr title="Hypertext Preprocessor">PHP</ abbr >]]></technologies>
+		<description><![CDATA[<p> C’Vous est mon premier projet tutoré réalisé dans le cadre de ma première année de DUT MMI. C’est un projet réalisé par groupe de trois étudiants dans lequel je jouais le rôle de développeuse front. L’objectif était d’y présenter la formation ainsi que les profils de tous les étudiants de ma promotion. </p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[4]]></session_realisation>
+		<diplome_id><![CDATA[25]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[81]]></id>
+		<titre><![CDATA[Mission Shinobi]]></titre>
+		<technologies><![CDATA[<abbr title ="Hypertext Markup Language">HTML 5</abbr>, TypeScript, Adobe Animate, Adobe Illustrator, Adobe Photoshop, create.js]]></technologies>
+		<description><![CDATA[<p>Dans le cadre du projet final de la session 4, on a réalisé ce jeu 2D en HTML 5 programmé en TypeScript. Ce projet a été entièrement programmé en suivant les basses de la programmation orientée objet ainsi que l’application des habiletés en animation. Dans ce projet, la créativité était mise à l’avant pour créer un produit numérique cohérent, performant et surtout amusant.</p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[4]]></session_realisation>
+		<diplome_id><![CDATA[7]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[82]]></id>
+		<titre><![CDATA[Festival OFF]]></titre>
+		<technologies><![CDATA[<abbr title ="Hypertext Markup Language">HTML</abbr>, <abbr title ="Cascading Style Sheet">CSS</abbr>, JavaScript,  <abbr title ="Hypertext Preprocessor">PHP</abbr>, 
+ <abbr title ="Structured Query Language">SQL</abbr>, Figma, Adobe Photoshop, Axure.]]></technologies>
+		<description><![CDATA[<p>Le projet consistait à désigner l’interface, programmer et intégrer le site web du festival de musique OFF. Dans ce projet j’ai eu l’occasion d’exploiter une base de données SQL pour faire afficher dynamiquement le contenu et mettre en place un système de filtres et de tri pour la liste d’artistes et de présentations. Aussi, le projet visait à attirer l’attention d’un public jeune, tout en gardant les meilleures pratiques de désign UX et d’accessibilité.</p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[3]]></session_realisation>
+		<diplome_id><![CDATA[7]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[83]]></id>
+		<titre><![CDATA[Jeu 2D - Alfredo, chasseur de fantômes]]></titre>
+		<technologies><![CDATA[TypeScript, Adobe Illustrator & Animate]]></technologies>
+		<description><![CDATA[Le projet de jeu vidéo consistait à créer un jeu de plateforme 2D de A à Z avec certains composants obligatoires (mécaniques de tirs, détection de contact, décors fixes et mobile, pointages et deux niveaux), mais beaucoup de liberté créative. Les médias ont été créés principalement avec Adobe Illustrator et animés avec Adobe Animate. La programmation a été entièrement réalisée en TypeScript orienté objet.]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[4]]></session_realisation>
+		<diplome_id><![CDATA[19]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[84]]></id>
+		<titre><![CDATA[Progressive Web App - Quiz]]></titre>
+		<technologies><![CDATA[HTML, CSS, JavaScript, PHP]]></technologies>
+		<description><![CDATA[Le quiz interactif est un projet développé sur une courte période de temps visant l’exploration des Progressive Web Apps et l’apprentissage d’animations CSS. Le quiz a été développé pour une utilisation sur tablette, l’expérience est séquentiel et entièrement animé (Accueil, 3 questions, page résultat). La vérification des réponses, le pointage et le déclenchement des animations séquentielles sont gérées par JavaScript lorsque celui-ci est activé, sinon le quiz est un one-pager corrigé par PHP.]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[5]]></session_realisation>
+		<diplome_id><![CDATA[19]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[85]]></id>
+		<titre><![CDATA[Site d’agence utilisant WordPress - Allegro]]></titre>
+		<technologies><![CDATA[<abbr title="Hypertext Preprocessor">PHP</abbr>
+<abbr title="JavaScript">JS</abbr>
+<abbr title="Hypertext Markup Language">HTML</abbr>
+<abbr title="Cascading Style Sheets">CSS</abbr>
+<abbr title="WordPress">WP</abbr>
+
+]]></technologies>
+		<description><![CDATA[<p>Pour ce projet, nous devions concevoir et développer le site d’une agence web/marketing fictive. Celui-ci était notre première expérience avec WordPress</p>
+
+<p>Sur ce projet, mon mandat était celui du « Directeur technique », j’ai gêré le côté technique et programmation du projet. De l’environnement de travail jusqu’à la mise en ligne, la prévention de bugs et crises techniques était ma priorité! Mon équipe et moi nous avons utilisé Slack pour communiquer de façon optimale tout le long du projet.</p>
+]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[3]]></session_realisation>
+		<diplome_id><![CDATA[4]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[86]]></id>
+		<titre><![CDATA[Site e-commerce - Traces]]></titre>
+		<technologies><![CDATA[<abbr title="Hypertext Preprocessor">Ajax</abbr>
+<abbr title="JavaScript">JS</abbr>
+<abbr title="TypeScript">TS</abbr>
+<abbr title="Hypertext Markup Language">HTML</abbr>
+<abbr title="Hypertext Preprocessor">PHP</abbr>
+<abbr title="Modèle-Vue-Contrôleur">MVC</abbr>
+<abbr title="Structured Query Languager">SQL</abbr>
+<abbr title="Hypertext Markup Language">HTML</abbr>]]></technologies>
+		<description><![CDATA[<p>Première approche du cadriciel MVC, ce projet nous a introduit au monde du e-commerce, un domaine en pleine effervescence qui nous fallait explorer. De la conception à la programmation de transaction, nous avons appris ce qui fonctionne déjà dans la sphère du développement d'e-commerce. Pour ce projet, j'ai eu à me consacrer à la programmation de la transaction en utilisant les sessions et cookies générés par notre site web. Je me suis entièrement appliqué sur la programmation de la page catalogue aussi ce qui m'a permis de comprendre la manipulation d'un bon nombre de données. </p>
+
+<p>Traces m'a permis d'apprendre beaucoup sur moi-même et sur mes limites. Tant en rapport à mon organisation personnel qu'au côté technique du développement, je suis donc, aujourd'hui un meilleur développeur et une meilleure personne aussi. </p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[5]]></session_realisation>
+		<diplome_id><![CDATA[4]]></diplome_id>
+	</node>
+	<node>
+		<id><![CDATA[87]]></id>
+		<titre><![CDATA[Agence numérique - PIXWEB]]></titre>
+		<technologies><![CDATA[WordPress, <abbr title ="Super Awesome Style Sheets">SASS</abbr>, <abbr title ="Structured Query Language">SQL</abbr>, <abbr title ="Hypertext Preprocessor">PHP</abbr>, JavaScript, Figma]]></technologies>
+		<description><![CDATA[<p>Dans ce travail en équipe réalisé sous le principe du développement Agile, on a conçu un site web pour notre propre agence numérique. Ce projet nous a permis d’appliquer nos connaissances du développement de notre propre thème avec le <abbr title ="Content Management System">CMS</abbr> Wordpress ainsi que la configuration d'un environnement de travail basé sur <abbr title ="Node Package Manager">NPM</abbr> et <abbr title ="Super Awesome Style Sheets">SASS</abbr>.</p>
+<p>Ce travail a été réalisé en collaboration avec <a href="#">Emy Pelletier</a>,  <a href="#">Samuel Loranger</a> et  <a href="#">Tommy Blouin-Boudreau</a>.</p>]]></description>
+		<url><![CDATA[]]></url>
+		<est_expose_galerie><![CDATA[0]]></est_expose_galerie>
+		<session_realisation><![CDATA[4]]></session_realisation>
+		<diplome_id><![CDATA[7]]></diplome_id>
+	</node>
+</data>

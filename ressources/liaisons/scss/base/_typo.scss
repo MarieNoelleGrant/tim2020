@@ -1,0 +1,103 @@
+/**
+ * @author Marie-Noëlle Grant <m.noelle.grant@gmail.com>
+*/
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  @include fontSize(16px);
+  font-family: $fonteSecondaire;
+  line-height: 1.5;
+  font-weight: 300;
+  /* facteur multiplicateur de la taille de la police 1.375x16=22 */
+  @media (min-width:$mobile) {
+    line-height: 1.5;
+  }
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+p {
+  color: $presqueNoir;
+}
+
+
+h1, .h1, h2, .h2, .h3--Deco {
+  font-family: $fontePrimaire--medium;
+}
+
+h3, .h3 {
+  font-family: $fonteSecondaire;
+}
+
+// *** Utilisation de tailles en px impair, puisque pair cause la police à être floue (raison inconnue...!)
+
+h1, .h1 {
+  @include fontSize(41px);
+  text-transform: uppercase;
+  @media (min-width:$mobile) {
+    @include fontSize(55px);
+  }
+  @media (min-width: $tablette) {
+    @include fontSize(81px);
+  }
+  @media (max-width:$miniMobile) {
+    @include fontSize(37px);
+  }
+}
+
+h2, .h2 {
+  @include fontSize(31px);
+  text-transform: uppercase;
+  @media (min-width:$mobile) {
+    @include fontSize(38px);
+  }
+  @media (min-width: $tablette) {
+    @include fontSize(51px);
+  }
+  @media (max-width: $miniMobile) {
+    @include fontSize(25px);
+  }
+}
+
+h3, .h3 {
+  @include fontSize(21px);
+  font-weight: 800;
+  @media (min-width: $mobile) {
+    @include fontSize(25px);
+  }
+  @media (max-width: $miniMobile) {
+    @include fontSize(19px);
+  }
+}
+
+.h3--deco {
+  font-family: $fontePrimaire--medium;
+  @include fontSize(21px);
+  text-transform: uppercase;
+  &Blanc {
+    color: $blanc;
+  }
+  @media (min-width: $mobile) {
+    @include fontSize(25px);
+  }
+  @media (max-width: $miniMobile) {
+    @include fontSize(19px);
+  }
+}
+
+h4, .h4 {
+  font-family: $fonteSecondaire;
+  font-weight: 500;
+  @include fontSize(19px);
+}
+
+.h1, .h2, .h3 {
+  &--blanc {
+    color: $blanc;
+  }
+}
+

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.9.3
+- https://www.phpmyadmin.net
+-
+- Host: localhost:8889
+- Generation Time: Jan 29, 2020 at 06:52 PM
+- Server version: 5.7.26
+- PHP Version: 7.4.1
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="tim2020_donnees" collation="utf8mb4_unicode_ci" charset="utf8mb4">
+            <pma:table name="responsable">
+                CREATE TABLE `responsable` (
+                  `id` tinyint(3) unsigned NOT NULL AUTO_INCREMENT,
+                  `responsabilite` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+                  `courriel` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+                  `prenom` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+                  `nom` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+                  `telephone` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Coordination, webmestre...';
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'tim2020_donnees'
+    -->
+    <database name="tim2020_donnees">
+        <!-- Table responsable -->
+        <table name="responsable">
+            <column name="id">1</column>
+            <column name="responsabilite">Coordonnateur départemental</column>
+            <column name="courriel">slamoureux@cegep-ste-foy.qc.ca</column>
+            <column name="prenom">Sylvain</column>
+            <column name="nom">Lamoureux</column>
+            <column name="telephone">(418) 659-6600 poste 6662</column>
+        </table>
+        <table name="responsable">
+            <column name="id">2</column>
+            <column name="responsabilite">Webmestre</column>
+            <column name="courriel">mrouleau@cegep-ste-foy.qc.ca</column>
+            <column name="prenom">Michel</column>
+            <column name="nom">Rouleau</column>
+            <column name="telephone">(418) 659-6600 poste 6659</column>
+        </table>
+        <table name="responsable">
+            <column name="id">3</column>
+            <column name="responsabilite">Responsable des stages</column>
+            <column name="courriel">stages-tim@cegep-ste-foy.qc.ca</column>
+            <column name="prenom">Michelle</column>
+            <column name="nom">Decorte</column>
+            <column name="telephone">(418) 659-6600 poste 6653</column>
+        </table>
+        <table name="responsable">
+            <column name="id">4</column>
+            <column name="responsabilite">Responsable &quot;Étudiant d'un jour&quot;</column>
+            <column name="courriel">bfrigon@cegep-ste-foy.qc.ca</column>
+            <column name="prenom">Benoît</column>
+            <column name="nom">Frigon</column>
+            <column name="telephone">(418) 659-6600 poste 6656</column>
+        </table>
+    </database>
+</pma_xml_export>
